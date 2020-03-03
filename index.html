@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>1</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <!-- <script src="https://d3js.org/d3.v5.min.js"></script> -->
+</head>
+
+<body>
+<div id="myDiv"></div>
+<div id="myDiv2"></div>
+<div id="myDiv3"></div>
+<script type="text/javascript">
+Plotly.d3.csv('https://raw.githubusercontent.com/defve1988/defve1988.github.io/master/earthquakes-23k.csv',
+  function(err, rows){function unpack(rows, key) {return rows.map(function(row){ return row[key];
+})};
+
+var data = [{
+  lon: unpack(rows, 'Longitude'), lat: unpack(rows, 'Latitude'), radius:10,
+  z: unpack(rows, 'Magnitude'), type: "densitymapbox", coloraxis: 'coloraxis',
+  hoverinfo: 'skip'}];
+
+var layout = {
+    mapbox: {center: {lon: 60, lat: 30}, style: "outdoors", zoom: 2},
+    coloraxis: {colorscale: "Viridis"}, title: {text: "Earthquake Magnitude"},
+    width: 400, height: 300, margin: {t: 30, b: 0}};
+
+var config = {mapboxAccessToken: "pk.eyJ1IjoiZGVmdmUxOTg4IiwiYSI6ImNrNzNzZmN3dzBmMnMzZ3FvMzJ0MDRpa2QifQ.xLG4lim5AonGbkDtgP9-5A"};
+
+Plotly.newPlot('myDiv', data, layout, config);
+})
+</script>
+<script type="text/javascript">
+var data = [{
+    type: 'scattermapbox',
+    mode: 'markers',
+    locations: ['FRA', 'DEU', 'RUS', 'ESP'],
+    marker: {
+        size: [20, 30, 15, 10],
+        color: [10, 20, 40, 50],
+        cmin: 0,
+        cmax: 50,
+        colorscale: 'Greens',
+        colorbar: {
+            title: 'Some rate',
+            ticksuffix: '%',
+            showticksuffix: 'last'
+        },
+        line: {
+            color: 'black'
+        }
+    },
+    name: 'europe data'
+}];
+
+// var layout = {
+//     'geo': {
+//         'scope': 'world',
+//         'resolution': 50,
+//                     subunitcolor: 'rgb(255,255,255)',
+//             countrycolor: 'rgb(255,255,255)',
+//             landcolor: 'rgb(217, 217, 217)',
+//             showland: true
+//     }
+// };
+    var layout = {
+      dragmode: "zoom",
+      mapbox: { style: "open-street-map", center: { lat: 38, lon: -90 }, zoom: 3 },
+      margin: { r: 0, t: 0, b: 0, l: 0 }
+    };
+    var config = {mapboxAccessToken: "pk.eyJ1IjoiZGVmdmUxOTg4IiwiYSI6ImNrNzNzZmN3dzBmMnMzZ3FvMzJ0MDRpa2QifQ.xLG4lim5AonGbkDtgP9-5A"};
+
+Plotly.newPlot('myDiv2', data, layout,config);
+</script>
+<script type="text/javascript">
+var url = "https://docs.mapbox.com/mapbox-gl-js/assets/earthquakes.geojson";
+
+Plotly.d3.json(url, (err, raw) => {
+  var lon = raw.features.map(f => f.geometry.coordinates[0]);
+  var lat = raw.features.map(f => f.geometry.coordinates[1]);
+  var z = raw.features.map(f => f.properties.mag);
+
+  var data = [
+    { type: "scattermapbox", lon: lon, lat: lat, z: z, hoverinfo: "y" }
+  ];
+
+  var layout = {
+    mapbox: { style: "dark", zoom: 2, center: { lon: -150, lat: 60 } },
+    margin: { t: 0, b: 0 }
+  };
+
+    var config = {mapboxAccessToken: "pk.eyJ1IjoiZGVmdmUxOTg4IiwiYSI6ImNrNzNzZmN3dzBmMnMzZ3FvMzJ0MDRpa2QifQ.xLG4lim5AonGbkDtgP9-5A"};
+
+  Plotly.newPlot('myDiv3', data, layout, config);
+});
+</script>
+</body>
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="https://raw.githubusercontent.com/defve1988/defve1988.github.io/master/myScript.js"></script>
+  </head>
+<body>
+
+<h2>External JavaScript</h2>
+
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<p>(myFunction is stored in an external file called "myScript.js")</p>
+
+
+</body>
+</html> -->
