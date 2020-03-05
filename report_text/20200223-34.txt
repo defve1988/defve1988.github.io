@@ -1,0 +1,1444 @@
+Coronavirus disease 2019 (COVID-19) 
+
+Situation Report – 34 
+
+Data as reported by 10AM CET 23 February 2020* 
+
+HIGHLIGHTS 
+
+• No new countries reported cases of COVID-19 in the past 24 hours.  
+
+SITUATION IN NUMBERS 
+
+total and new cases in last 24 
+hours 
+
+Globally  
+78 811 confirmed (1017 new) 
+
+China 
+77 042 confirmed (650 new) 
+  2445 deaths (97 new)  
+
+Outside of China 
+1769 confirmed (367 new) 
+  28 countries 
+    17 deaths (6 new)  
+
+WHO RISK ASSESSMENT 
+
+China 
+Very High 
+Regional Level High 
+Global Level 
+High 
+
+Figure 1. Countries, territories or areas with reported confirmed cases of COVID-19, 23 February 2020   
+
+*The situation report includes information provided by national authorities as of 10 AM Central European Time  
+
+SURVEILLANCE  
+
+Table 1. Confirmed and suspected cases of COVID-19 acute respiratory disease reported by provinces, regions and 
+cities in China, 23 February 2020 
+
+Province/  
+Region/  
+City 
+
+Population 
+(10,000s) 
+
+Daily 
+
+Cumulative 
+
+Confirmed 
+cases 
+
+Suspected 
+cases 
+
+Deaths 
+
+Confirmed 
+cases 
+
+Deaths 
+
+Hubei 
+Guangdong 
+Henan 
+Zhejiang 
+Hunan 
+Anhui 
+Jiangxi 
+Shandong 
+Jiangsu 
+Chongqing 
+Sichuan 
+Heilongjiang 
+Beijing 
+Shanghai 
+Hebei 
+Fujian 
+Guangxi 
+Shaanxi 
+Yunnan 
+Hainan 
+Guizhou 
+Tianjin 
+Shanxi 
+Liaoning 
+Jilin 
+Gansu 
+Xinjiang 
+Inner Mongolia 
+Ningxia 
+Hong Kong SAR 
+Taipei and environs 
+Qinghai 
+Macao SAR 
+Xizang 
+Total 
+
+5917 
+11346 
+9605 
+5737 
+6899 
+6324 
+4648 
+10047 
+8051 
+3102 
+8341 
+3773 
+2154 
+2424 
+7556 
+3941 
+4926 
+3864 
+4830 
+934 
+3600 
+1560 
+3718 
+4359 
+2704 
+2637 
+2487 
+2534 
+688 
+745 
+2359 
+603 
+66 
+344 
+142823 
+
+630 
+3 
+1 
+0 
+3 
+0 
+0 
+4 
+0 
+1 
+0 
+1 
+0 
+1 
+2 
+0 
+0 
+0 
+0 
+0 
+0 
+2 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+2 
+0 
+0 
+0 
+0 
+650 
+
+631 
+0 
+12 
+2 
+0 
+0 
+0 
+2 
+0 
+21 
+15 
+0 
+35 
+52 
+0 
+0 
+12 
+2 
+11 
+14 
+0 
+51 
+1 
+13 
+7 
+0 
+0 
+0 
+1 
+0 
+0 
+0 
+0 
+0 
+882 
+
+96 
+1 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+97 
+
+64084 
+1342 
+1271 
+1205 
+1016 
+989 
+934 
+754 
+631 
+573 
+526 
+480 
+399 
+335 
+311 
+293 
+249 
+245 
+174 
+168 
+146 
+135 
+132 
+121 
+91 
+91 
+76 
+75 
+71 
+70 
+26 
+18 
+10 
+1 
+77042 
+
+2346 
+6 
+19 
+1 
+4 
+6 
+1 
+4 
+0 
+6 
+3 
+12 
+4 
+3 
+6 
+1 
+2 
+1 
+2 
+4 
+2 
+3 
+0 
+1 
+1 
+2 
+2 
+0 
+0 
+2 
+1 
+0 
+0 
+0 
+2445 
+
+Table 2. Countries, territories or areas outside China with reported laboratory-confirmed COVID-19 cases and 
+deaths. Data as of 23 February 2020 
+
+ Likely place of exposure† 
+
+Outside 
+reporting 
+country and 
+outside 
+China (new) 
+
+In 
+reporting 
+country 
+(new) 
+
+Total cases with site of 
+transmission under 
+investigation (new) 
+
+Total 
+deaths 
+(new) 
+
+China 
+(new) 
+
+13 (0) 
+28 (0) 
+24 (1) 
+12 (0) 
+17 (0) 
+8 (0) 
+3 (0) 
+1 (0) 
+
+23 (0) 
+3 (0) 
+1 (0) 
+1 (0) 
+
+4 (0) 
+5 (0) 
+0 (0) 
+7 (1) 
+1 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+
+14 (0) 
+7 (0) 
+
+18 (0) 
+1 (1) 
+
+3 (0) 
+2 (0) 
+5 (0) 
+2 (0) 
+2 (0) 
+0 (0) 
+1 (0) 
+1 (0) 
+0 (0) 
+1 (0) 
+
+0 (0) 
+6 (0) 
+0 (0) 
+0 (0) 
+
+0 (0) 
+0 (0) 
+0 (0) 
+6 (0) 
+0 (0) 
+2 (0) 
+0 (0) 
+0 (0) 
+1 (0) 
+0 (0) 
+
+0 (0) 
+2 (2) 
+0 (0) 
+1 (0) 
+
+Country/Territory/Area 
+
+Confirmed* 
+cases (new) 
+
+35 (0) 
+3 (0) 
+1 (0) 
+1 (0) 
+
+35 (0) 
+9 (1) 
+
+602 (256) 
+132 (27) 
+89 (3) 
+22 (1) 
+22 (0) 
+16 (0) 
+3 (0) 
+1 (0) 
+
+Western Pacific Region 
+Republic of Korea 
+Japan 
+Singapore 
+Australia 
+Malaysia 
+Viet Nam 
+Philippines 
+Cambodia 
+South-East Asia Region 
+Thailand 
+India 
+Nepal 
+Sri Lanka 
+Region of the Americas 
+United States of 
+America 
+Canada 
+European Region 
+Italy 
+76 (67) 
+Germany 
+16 (0) 
+France 
+12 (0) 
+The United Kingdom 
+9 (0) 
+Russian Federation 
+2 (0) 
+Spain 
+2 (0) 
+Belgium 
+1 (0) 
+Finland 
+1 (0) 
+Israel 
+1 (0) 
+Sweden 
+1 (0) 
+Eastern Mediterranean Region 
+Iran (Islamic Republic of) 
+28 (10) 
+United Arab Emirates 
+13 (2) 
+Egypt 
+1 (0) 
+Lebanon 
+1 (0) 
+
+353 (65) 
+92 (24) 
+58 (2) 
+3 (0) 
+2 (0) 
+8 (0) 
+0 (0) 
+0 (0) 
+
+5 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+
+2 (0) 
+0 (0) 
+
+9 (3) 
+14 (0) 
+7 (0) 
+1 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+
+18 (0) 
+5 (0) 
+1 (0) 
+0 (0) 
+
+232 (191) 
+7 (3) 
+7 (0) 
+0 (0) 
+2 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+
+7 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+
+1 (0) 
+1 (0) 
+
+64 (64) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+
+10 (10) 
+0 (0) 
+0 (0) 
+0 (0) 
+
+5 (3) 
+1 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+1 (0) 
+0 (0) 
+
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+
+0 (0) 
+0 (0) 
+
+2 (2) 
+0 (0) 
+1 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+
+5 (1) 
+0 (0) 
+0 (0) 
+0 (0) 
+
+Subtotal for all regions 
+International 
+conveyance‡ (Diamond 
+Princess) 
+Grand total 
+
+1135 (367) 
+
+178 (1) 
+
+48 (4) 
+
+578 (94) 
+
+331 (268) 
+
+15 (6) 
+
+634 (0) 
+1769 (367) 
+
+0 (0) 
+178 (1) 
+
+0 (0) 
+48 (4) 
+
+0 (0) 
+578 (94) 
+
+634 (0) 
+965 (268) 
+
+2 (0) 
+17 (6) 
+
+*Case classifications are based on WHO case definitions for COVID-19.  
+†Location of transmission is classified based on WHO analysis of available official data and may be subject to reclassification as additional data 
+become available. 
+‡Cases identified on a cruise ship currently in Japanese territorial waters. 
+
+Figure 2. Epidemic curve of COVID-19 cases (n=284) identified outside of China, by date of onset of symptoms and 
+likely exposure location, 23 February 2020  
+
+Note for figure 2: Of the 1769 cases reported outside China, 32 were detected while apparently asymptomatic. For 
+the remaining 1737 cases, information on date of onset is available only for the 284 cases presented in the 
+epidemiologic curve. 
+
+Figure 3. Epidemic curve of COVID-19 cases (n=1769) identified outside of China, by date of report and likely 
+exposure location, 23 February 2020  
+
+STRATEGIC OBJECTIVES 
+
+WHO’s strategic objectives for this response are to: 
+
+• 
+
+• 
+• 
+
+Limit human-to-human transmission including reducing secondary infections among close contacts and 
+health care workers, preventing transmission amplification events, and preventing further international 
+spread from China*;  
+Identify, isolate and care for patients early, including providing optimized care for infected patients; 
+Identify and reduce transmission from the animal source; 
+• Address crucial unknowns regarding clinical severity, extent of transmission and infection, treatment 
+options, and accelerate the development of diagnostics, therapeutics and vaccines; 
+• Communicate critical risk and event information to all communities and counter misinformation; 
+• Minimize social and economic impact through multisectoral partnerships. 
+
+*This can be achieved through a combination of public health measures, such as rapid identification, diagnosis 
+and management of the cases, identification and follow up of the contacts, infection prevention and control in 
+health care settings, implementation of health measures for travelers, awareness-raising in the population and 
+risk communication. 
+
+PREPAREDNESS AND RESPONSE 
+
+• 
+
+To view all technical guidance documents regarding COVID-19, please go to this webpage. 
+• WHO is working closely with International Air Transport Association (IATA) and have jointly developed a 
+guidance document to provide advice to cabin crew and airport workers, based on country queries. The 
+guidance can be found on the IATA webpage.  
+• WHO has developed a protocol for the investigation of early cases (the “First Few X (FFX) Cases and contact 
+investigation protocol for 2019-novel coronavirus (2019-nCoV) infection”). The protocol is designed to gain an 
+early understanding of the key clinical, epidemiological and virological characteristics of the first cases of COVID-
+19 infection detected in any individual country, to inform the development and updating of public health 
+guidance to manage cases and reduce potential spread and impact of infection.  
+• WHO has been in regular and direct contact with Member States where cases have been reported. WHO is also 
+informing other countries about the situation and providing support as requested. 
+• WHO has developed interim guidance for laboratory diagnosis, advice on the use of masks during home care and 
+in health care settings in the context of the novel coronavirus (2019-nCoV) outbreak, clinical management, 
+infection prevention and control in health care settings, home care for patients with suspected novel 
+coronavirus, risk communication and community engagement and Global Surveillance for human infection with 
+novel coronavirus (2019-nCoV). 
+• WHO has prepared disease commodity package that includes an essential list of biomedical equipment, 
+medicines and supplies necessary to care for patients with 2019-nCoV.  
+• WHO has provided recommendations to reduce risk of transmission from animals to humans. 
+• WHO has published an updated advice for international traffic in relation to the outbreak of the novel 
+coronavirus 2019-nCoV. 
+• WHO has activated of R&D blueprint to accelerate diagnostics, vaccines, and therapeutics. 
+• WHO has developed online courses on the following topics:  A general introduction to emerging respiratory 
+viruses, including novel coronaviruses (available in French, Chinese, and Spanish);  Critical Care of Severe Acute 
+Respiratory Infections; and Health and safety briefing for respiratory diseases - ePROTECT 
+• WHO is providing guidance on early investigations, which are critical to carry out early in an outbreak of a new 
+virus. The data collected from the protocols can be used to refine recommendations for surveillance and case 
+definitions, to characterize the key epidemiological transmission features of COVID-19, help understand spread, 
+
+severity, spectrum of disease, impact on the community and to inform operational models for implementation of 
+countermeasures such as case isolation, contact tracing and isolation. Several protocols are available here: 
+https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/early-investigations  
+• WHO is working with its networks of researchers and other experts to coordinate global work on surveillance, 
+epidemiology, modelling, diagnostics, clinical care and treatment, and other ways to identify, manage the 
+disease and limit onward transmission. WHO has issued interim guidance for countries, which are updated 
+regularly. 
+• WHO is working with global expert networks and partnerships for laboratory, infection prevention and control, 
+clinical management and mathematical modelling. 
+
+RECOMMENDATIONS AND ADVICE FOR THE PUBLIC 
+
+During previous outbreaks due to other coronavirus (Middle-East Respiratory Syndrome (MERS) and Severe 
+Acute Respiratory Syndrome (SARS), human-to-human transmission occurred through droplets, contact and 
+fomites, suggesting that the transmission mode of the COVID-19 can be similar. The basic principles to reduce the 
+general risk of transmission of acute respiratory infections include the following: 
+
+• 
+
+• Avoiding close contact with people suffering from acute respiratory infections. 
+Frequent hand-washing, especially after direct contact with ill people or their environment. 
+• Avoiding unprotected contact with farm or wild animals. 
+• People with symptoms of acute respiratory infection should practice cough etiquette (maintain distance, cover 
+coughs and sneezes with disposable tissues or clothing, and wash hands). 
+• Within health care facilities, enhance standard infection prevention and control practices in hospitals, especially 
+in emergency departments. 
+
+WHO does not recommend any specific health measures for travellers. In case of symptoms suggestive of respiratory 
+illness either during or after travel, travellers are encouraged to seek medical attention and share their travel history 
+with their health care provider.  
+
+Coronavirus disease 2019 (COVID-19) 
+
+Situation Report – 34 
+
+Data as reported by 10AM CET 23 February 2020* 
+
+HIGHLIGHTS 
+
+• No new countries reported cases of COVID-19 in the past 24 hours.  
+
+SITUATION IN NUMBERS 
+
+total and new cases in last 24 
+hours 
+
+Globally  
+78 811 confirmed (1017 new) 
+
+China 
+77 042 confirmed (650 new) 
+  2445 deaths (97 new)  
+
+Outside of China 
+1769 confirmed (367 new) 
+  28 countries 
+    17 deaths (6 new)  
+
+WHO RISK ASSESSMENT 
+
+China 
+Very High 
+Regional Level High 
+Global Level 
+High 
+
+Figure 1. Countries, territories or areas with reported confirmed cases of COVID-19, 23 February 2020   
+
+*The situation report includes information provided by national authorities as of 10 AM Central European Time  
+
+SURVEILLANCE  
+
+Table 1. Confirmed and suspected cases of COVID-19 acute respiratory disease reported by provinces, regions and 
+cities in China, 23 February 2020 
+
+Province/  
+Region/  
+City 
+
+Population 
+(10,000s) 
+
+Daily 
+
+Cumulative 
+
+Confirmed 
+cases 
+
+Suspected 
+cases 
+
+Deaths 
+
+Confirmed 
+cases 
+
+Deaths 
+
+Hubei 
+Guangdong 
+Henan 
+Zhejiang 
+Hunan 
+Anhui 
+Jiangxi 
+Shandong 
+Jiangsu 
+Chongqing 
+Sichuan 
+Heilongjiang 
+Beijing 
+Shanghai 
+Hebei 
+Fujian 
+Guangxi 
+Shaanxi 
+Yunnan 
+Hainan 
+Guizhou 
+Tianjin 
+Shanxi 
+Liaoning 
+Jilin 
+Gansu 
+Xinjiang 
+Inner Mongolia 
+Ningxia 
+Hong Kong SAR 
+Taipei and environs 
+Qinghai 
+Macao SAR 
+Xizang 
+Total 
+
+5917 
+11346 
+9605 
+5737 
+6899 
+6324 
+4648 
+10047 
+8051 
+3102 
+8341 
+3773 
+2154 
+2424 
+7556 
+3941 
+4926 
+3864 
+4830 
+934 
+3600 
+1560 
+3718 
+4359 
+2704 
+2637 
+2487 
+2534 
+688 
+745 
+2359 
+603 
+66 
+344 
+142823 
+
+630 
+3 
+1 
+0 
+3 
+0 
+0 
+4 
+0 
+1 
+0 
+1 
+0 
+1 
+2 
+0 
+0 
+0 
+0 
+0 
+0 
+2 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+2 
+0 
+0 
+0 
+0 
+650 
+
+631 
+0 
+12 
+2 
+0 
+0 
+0 
+2 
+0 
+21 
+15 
+0 
+35 
+52 
+0 
+0 
+12 
+2 
+11 
+14 
+0 
+51 
+1 
+13 
+7 
+0 
+0 
+0 
+1 
+0 
+0 
+0 
+0 
+0 
+882 
+
+96 
+1 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+97 
+
+64084 
+1342 
+1271 
+1205 
+1016 
+989 
+934 
+754 
+631 
+573 
+526 
+480 
+399 
+335 
+311 
+293 
+249 
+245 
+174 
+168 
+146 
+135 
+132 
+121 
+91 
+91 
+76 
+75 
+71 
+70 
+26 
+18 
+10 
+1 
+77042 
+
+2346 
+6 
+19 
+1 
+4 
+6 
+1 
+4 
+0 
+6 
+3 
+12 
+4 
+3 
+6 
+1 
+2 
+1 
+2 
+4 
+2 
+3 
+0 
+1 
+1 
+2 
+2 
+0 
+0 
+2 
+1 
+0 
+0 
+0 
+2445 
+
+Table 2. Countries, territories or areas outside China with reported laboratory-confirmed COVID-19 cases and 
+deaths. Data as of 23 February 2020 
+
+ Likely place of exposure† 
+
+Outside 
+reporting 
+country and 
+outside 
+China (new) 
+
+In 
+reporting 
+country 
+(new) 
+
+Total cases with site of 
+transmission under 
+investigation (new) 
+
+Total 
+deaths 
+(new) 
+
+China 
+(new) 
+
+13 (0) 
+28 (0) 
+24 (1) 
+12 (0) 
+17 (0) 
+8 (0) 
+3 (0) 
+1 (0) 
+
+23 (0) 
+3 (0) 
+1 (0) 
+1 (0) 
+
+4 (0) 
+5 (0) 
+0 (0) 
+7 (1) 
+1 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+
+14 (0) 
+7 (0) 
+
+18 (0) 
+1 (1) 
+
+3 (0) 
+2 (0) 
+5 (0) 
+2 (0) 
+2 (0) 
+0 (0) 
+1 (0) 
+1 (0) 
+0 (0) 
+1 (0) 
+
+0 (0) 
+6 (0) 
+0 (0) 
+0 (0) 
+
+0 (0) 
+0 (0) 
+0 (0) 
+6 (0) 
+0 (0) 
+2 (0) 
+0 (0) 
+0 (0) 
+1 (0) 
+0 (0) 
+
+0 (0) 
+2 (2) 
+0 (0) 
+1 (0) 
+
+Country/Territory/Area 
+
+Confirmed* 
+cases (new) 
+
+35 (0) 
+3 (0) 
+1 (0) 
+1 (0) 
+
+35 (0) 
+9 (1) 
+
+602 (256) 
+132 (27) 
+89 (3) 
+22 (1) 
+22 (0) 
+16 (0) 
+3 (0) 
+1 (0) 
+
+Western Pacific Region 
+Republic of Korea 
+Japan 
+Singapore 
+Australia 
+Malaysia 
+Viet Nam 
+Philippines 
+Cambodia 
+South-East Asia Region 
+Thailand 
+India 
+Nepal 
+Sri Lanka 
+Region of the Americas 
+United States of 
+America 
+Canada 
+European Region 
+Italy 
+76 (67) 
+Germany 
+16 (0) 
+France 
+12 (0) 
+The United Kingdom 
+9 (0) 
+Russian Federation 
+2 (0) 
+Spain 
+2 (0) 
+Belgium 
+1 (0) 
+Finland 
+1 (0) 
+Israel 
+1 (0) 
+Sweden 
+1 (0) 
+Eastern Mediterranean Region 
+Iran (Islamic Republic of) 
+28 (10) 
+United Arab Emirates 
+13 (2) 
+Egypt 
+1 (0) 
+Lebanon 
+1 (0) 
+
+353 (65) 
+92 (24) 
+58 (2) 
+3 (0) 
+2 (0) 
+8 (0) 
+0 (0) 
+0 (0) 
+
+5 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+
+2 (0) 
+0 (0) 
+
+9 (3) 
+14 (0) 
+7 (0) 
+1 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+
+18 (0) 
+5 (0) 
+1 (0) 
+0 (0) 
+
+232 (191) 
+7 (3) 
+7 (0) 
+0 (0) 
+2 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+
+7 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+
+1 (0) 
+1 (0) 
+
+64 (64) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+
+10 (10) 
+0 (0) 
+0 (0) 
+0 (0) 
+
+5 (3) 
+1 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+1 (0) 
+0 (0) 
+
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+
+0 (0) 
+0 (0) 
+
+2 (2) 
+0 (0) 
+1 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+0 (0) 
+
+5 (1) 
+0 (0) 
+0 (0) 
+0 (0) 
+
+Subtotal for all regions 
+International 
+conveyance‡ (Diamond 
+Princess) 
+Grand total 
+
+1135 (367) 
+
+178 (1) 
+
+48 (4) 
+
+578 (94) 
+
+331 (268) 
+
+15 (6) 
+
+634 (0) 
+1769 (367) 
+
+0 (0) 
+178 (1) 
+
+0 (0) 
+48 (4) 
+
+0 (0) 
+578 (94) 
+
+634 (0) 
+965 (268) 
+
+2 (0) 
+17 (6) 
+
+*Case classifications are based on WHO case definitions for COVID-19.  
+†Location of transmission is classified based on WHO analysis of available official data and may be subject to reclassification as additional data 
+become available. 
+‡Cases identified on a cruise ship currently in Japanese territorial waters. 
+
+Figure 2. Epidemic curve of COVID-19 cases (n=284) identified outside of China, by date of onset of symptoms and 
+likely exposure location, 23 February 2020  
+
+Note for figure 2: Of the 1769 cases reported outside China, 32 were detected while apparently asymptomatic. For 
+the remaining 1737 cases, information on date of onset is available only for the 284 cases presented in the 
+epidemiologic curve. 
+
+Figure 3. Epidemic curve of COVID-19 cases (n=1769) identified outside of China, by date of report and likely 
+exposure location, 23 February 2020  
+
+STRATEGIC OBJECTIVES 
+
+WHO’s strategic objectives for this response are to: 
+
+• 
+
+• 
+• 
+
+Limit human-to-human transmission including reducing secondary infections among close contacts and 
+health care workers, preventing transmission amplification events, and preventing further international 
+spread from China*;  
+Identify, isolate and care for patients early, including providing optimized care for infected patients; 
+Identify and reduce transmission from the animal source; 
+• Address crucial unknowns regarding clinical severity, extent of transmission and infection, treatment 
+options, and accelerate the development of diagnostics, therapeutics and vaccines; 
+• Communicate critical risk and event information to all communities and counter misinformation; 
+• Minimize social and economic impact through multisectoral partnerships. 
+
+*This can be achieved through a combination of public health measures, such as rapid identification, diagnosis 
+and management of the cases, identification and follow up of the contacts, infection prevention and control in 
+health care settings, implementation of health measures for travelers, awareness-raising in the population and 
+risk communication. 
+
+PREPAREDNESS AND RESPONSE 
+
+• 
+
+To view all technical guidance documents regarding COVID-19, please go to this webpage. 
+• WHO is working closely with International Air Transport Association (IATA) and have jointly developed a 
+guidance document to provide advice to cabin crew and airport workers, based on country queries. The 
+guidance can be found on the IATA webpage.  
+• WHO has developed a protocol for the investigation of early cases (the “First Few X (FFX) Cases and contact 
+investigation protocol for 2019-novel coronavirus (2019-nCoV) infection”). The protocol is designed to gain an 
+early understanding of the key clinical, epidemiological and virological characteristics of the first cases of COVID-
+19 infection detected in any individual country, to inform the development and updating of public health 
+guidance to manage cases and reduce potential spread and impact of infection.  
+• WHO has been in regular and direct contact with Member States where cases have been reported. WHO is also 
+informing other countries about the situation and providing support as requested. 
+• WHO has developed interim guidance for laboratory diagnosis, advice on the use of masks during home care and 
+in health care settings in the context of the novel coronavirus (2019-nCoV) outbreak, clinical management, 
+infection prevention and control in health care settings, home care for patients with suspected novel 
+coronavirus, risk communication and community engagement and Global Surveillance for human infection with 
+novel coronavirus (2019-nCoV). 
+• WHO has prepared disease commodity package that includes an essential list of biomedical equipment, 
+medicines and supplies necessary to care for patients with 2019-nCoV.  
+• WHO has provided recommendations to reduce risk of transmission from animals to humans. 
+• WHO has published an updated advice for international traffic in relation to the outbreak of the novel 
+coronavirus 2019-nCoV. 
+• WHO has activated of R&D blueprint to accelerate diagnostics, vaccines, and therapeutics. 
+• WHO has developed online courses on the following topics:  A general introduction to emerging respiratory 
+viruses, including novel coronaviruses (available in French, Chinese, and Spanish);  Critical Care of Severe Acute 
+Respiratory Infections; and Health and safety briefing for respiratory diseases - ePROTECT 
+• WHO is providing guidance on early investigations, which are critical to carry out early in an outbreak of a new 
+virus. The data collected from the protocols can be used to refine recommendations for surveillance and case 
+definitions, to characterize the key epidemiological transmission features of COVID-19, help understand spread, 
+
+severity, spectrum of disease, impact on the community and to inform operational models for implementation of 
+countermeasures such as case isolation, contact tracing and isolation. Several protocols are available here: 
+https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/early-investigations  
+• WHO is working with its networks of researchers and other experts to coordinate global work on surveillance, 
+epidemiology, modelling, diagnostics, clinical care and treatment, and other ways to identify, manage the 
+disease and limit onward transmission. WHO has issued interim guidance for countries, which are updated 
+regularly. 
+• WHO is working with global expert networks and partnerships for laboratory, infection prevention and control, 
+clinical management and mathematical modelling. 
+
+RECOMMENDATIONS AND ADVICE FOR THE PUBLIC 
+
+During previous outbreaks due to other coronavirus (Middle-East Respiratory Syndrome (MERS) and Severe 
+Acute Respiratory Syndrome (SARS), human-to-human transmission occurred through droplets, contact and 
+fomites, suggesting that the transmission mode of the COVID-19 can be similar. The basic principles to reduce the 
+general risk of transmission of acute respiratory infections include the following: 
+
+• 
+
+• Avoiding close contact with people suffering from acute respiratory infections. 
+Frequent hand-washing, especially after direct contact with ill people or their environment. 
+• Avoiding unprotected contact with farm or wild animals. 
+• People with symptoms of acute respiratory infection should practice cough etiquette (maintain distance, cover 
+coughs and sneezes with disposable tissues or clothing, and wash hands). 
+• Within health care facilities, enhance standard infection prevention and control practices in hospitals, especially 
+in emergency departments. 
+
+WHO does not recommend any specific health measures for travellers. In case of symptoms suggestive of respiratory 
+illness either during or after travel, travellers are encouraged to seek medical attention and share their travel history 
+with their health care provider.  
+

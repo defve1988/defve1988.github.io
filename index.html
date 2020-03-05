@@ -1,119 +1,161 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>1</title>
+  <title>COVID-19 Tracker</title>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <!-- <script src="https://d3js.org/d3.v5.min.js"></script> -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://unpkg.com/d3-simple-slider"></script>
+  <script src="dispMap.js"></script>
+  <style type="text/css">
+    #map {
+      height: 650px;
+      width: 1400px;
+    }
+
+  </style>
 </head>
+<header>
+Coronavirus Disease 2019 (COVID-19) Tracker (Total Confirmed Cases)
+</header>
 
 <body>
-<div id="myDiv"></div>
-<div id="myDiv2"></div>
-<div id="myDiv3"></div>
-<script type="text/javascript">
-Plotly.d3.csv('https://raw.githubusercontent.com/defve1988/defve1988.github.io/master/earthquakes-23k.csv',
-  function(err, rows){function unpack(rows, key) {return rows.map(function(row){ return row[key];
-})};
+  <div id="slider"><span id="legend"></span></div>
+  
+  <div id="map"></div>
+  
 
-var data = [{
-  lon: unpack(rows, 'Longitude'), lat: unpack(rows, 'Latitude'), radius:10,
-  z: unpack(rows, 'Magnitude'), type: "densitymapbox", coloraxis: 'coloraxis',
-  hoverinfo: 'skip'}];
+  <script>
+    confirmed = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv'
+    var config = {mapboxAccessToken: "pk.eyJ1IjoiZGVmdmUxOTg4IiwiYSI6ImNrNzNzZmN3dzBmMnMzZ3FvMzJ0MDRpa2QifQ.xLG4lim5AonGbkDtgP9-5A"};
 
-var layout = {
-    mapbox: {center: {lon: 60, lat: 30}, style: "outdoors", zoom: 2},
-    coloraxis: {colorscale: "Viridis"}, title: {text: "Earthquake Magnitude"},
-    width: 400, height: 300, margin: {t: 30, b: 0}};
+    var data = 0;
+    Plotly.d3.csv(confirmed, function(err, rows){
 
-var config = {mapboxAccessToken: "pk.eyJ1IjoiZGVmdmUxOTg4IiwiYSI6ImNrNzNzZmN3dzBmMnMzZ3FvMzJ0MDRpa2QifQ.xLG4lim5AonGbkDtgP9-5A"};
+    var DAYS = 42
+    var dataNewYorkTimes = d3.range(1, 41).map(d => ({
+        year: d,
+        value: 10000 * Math.exp(-(d - 1) / 40),
+      }));
 
-Plotly.newPlot('myDiv', data, layout, config);
-})
-</script>
-<script type="text/javascript">
-var data = [{
-    type: 'scattermapbox',
-    mode: 'markers',
-    locations: ['FRA', 'DEU', 'RUS', 'ESP'],
-    marker: {
-        size: [20, 30, 15, 10],
-        color: [10, 20, 40, 50],
-        cmin: 0,
-        cmax: 50,
-        colorscale: 'Greens',
-        colorbar: {
-            title: 'Some rate',
-            ticksuffix: '%',
-            showticksuffix: 'last'
-        },
-        line: {
-            color: 'black'
+    var dataTime = d3.range(0, DAYS).map(function(d){return new Date(2020, 0, 22+d);});
+    var values = get_data(rows,get_header(d3.min(dataTime)));
+    var cityName = values[0]
+    var cityCountry = values[1]
+    var cityPop = values[2]
+    var cityLat = values[3]
+    var cityLon = values[4]
+    var citySize = values[5]
+    var levels = values[6]
+    var hoverText = values[7]
+
+    // console.log(levels)
+    var data = [{
+        type: 'scattermapbox',
+        // mode: 'text',
+        name: levels,
+        lat: cityLat,
+        lon: cityLon,
+        hoverinfo: 'text',
+        text: hoverText,
+        marker: {
+            size: citySize,
+            color: 'red',
+            line: {
+                color: 'black',
+                width: 10
+            },
+            opacity:0.5
         }
-    },
-    name: 'europe data'
-}];
+    }];
+// console.log(data)
+// console.log(update);
 
-// var layout = {
-//     'geo': {
-//         'scope': 'world',
-//         'resolution': 50,
-//                     subunitcolor: 'rgb(255,255,255)',
-//             countrycolor: 'rgb(255,255,255)',
-//             landcolor: 'rgb(217, 217, 217)',
-//             showland: true
-//     }
-// };
-    var layout = {
-      dragmode: "zoom",
-      mapbox: { style: "open-street-map", center: { lat: 38, lon: -90 }, zoom: 3 },
-      margin: { r: 0, t: 0, b: 0, l: 0 }
-    };
-    var config = {mapboxAccessToken: "pk.eyJ1IjoiZGVmdmUxOTg4IiwiYSI6ImNrNzNzZmN3dzBmMnMzZ3FvMzJ0MDRpa2QifQ.xLG4lim5AonGbkDtgP9-5A"};
+// console.log(map);
+  Plotly.newPlot(map, data, map_layout, config);
 
-Plotly.newPlot('myDiv2', data, layout,config);
-</script>
-<script type="text/javascript">
-var url = "https://docs.mapbox.com/mapbox-gl-js/assets/earthquakes.geojson";
+    var slider = d3
+      .sliderBottom()
+      .min(d3.min(dataTime))
+      .max(d3.max(dataTime))
+      .step(1000 * 60 * 60 * 24)
+      .width(600)
+      .ticks(10)
+      .fill(["red"])
+      .displayValue(true)
+      .on('onchange', val => {
+        values = get_data(rows,get_header(val));
+        cityName = values[0]
+        cityCountry = values[1]
+        cityPop = values[2]
+        cityLat = values[3]
+        cityLon = values[4]
+        citySize = values[5]
+        levels = values[6]
+        hoverText = values[7]
+        for ( var i = 0 ; i < cityName.length; i++) {
+          data[0].name[i] = levels[i];
+          data[0].text[i] = hoverText[i];
+          data[0].marker.size[i] = citySize[i];
+        }
+        // console.log(data[0].name);
+        Plotly.redraw(map)
+      });
+   
+    d3.select('#slider')
+      .append('svg')
+      .attr('width', 800)
+      .attr('height', 100)
+      .append('g')
+      .attr('transform', 'translate(30,30)')
+      .call(slider);
 
-Plotly.d3.json(url, (err, raw) => {
-  var lon = raw.features.map(f => f.geometry.coordinates[0]);
-  var lat = raw.features.map(f => f.geometry.coordinates[1]);
-  var z = raw.features.map(f => f.properties.mag);
+})
 
-  var data = [
-    { type: "scattermapbox", lon: lon, lat: lat, z: z, hoverinfo: "y" }
-  ];
+ var circleData = [
+   {"cx": 80, "cy": 80, "radius": 65, "color" : "red", "text":"Hubei","size":"27px" },
+   {"cx": 180, "cy": 80, "radius": 29, "color" : "red", "text":">5000","size":"18px"},
+   {"cx": 245, "cy": 80, "radius": 26, "color" : "red", "text":">2000","size":"16px"},
+   {"cx": 300, "cy": 80, "radius": 23, "color" : "red", "text":">1000","size":"16px"},
+   {"cx": 350, "cy": 80, "radius": 20, "color" : "red", "text":">500","size":"14px"},
+   {"cx": 395, "cy": 80, "radius": 17, "color" : "red", "text":">200","size":"14px"},
+   {"cx": 430, "cy": 80, "radius": 14, "color" : "red", "text":">100","size":"12px"},
+   {"cx": 465, "cy": 80, "radius": 11, "color" : "red", "text":">25","size":"12px"},
+   {"cx": 495, "cy": 80, "radius": 8, "color" : "red", "text":">10","size":"12px"},
+   {"cx": 520, "cy": 80, "radius": 5, "color" : "red", "text":">5","size":"12px"},
+   {"cx": 540, "cy": 80, "radius": 2, "color" : "red", "text":">1","size":"12px"}];
+ 
+ //Create the SVG Viewport
+ var svgContainer = d3.select("#legend").append("svg")
+                                      .attr("width",550)
+                                   .attr("height",180);
 
-  var layout = {
-    mapbox: { style: "dark", zoom: 2, center: { lon: -150, lat: 60 } },
-    margin: { t: 0, b: 0 }
-  };
+//Add circles to the svgContainer
+var circles = svgContainer.selectAll("circle")
+                           .data(circleData)
+                           .enter()
+                           .append("circle");
 
-    var config = {mapboxAccessToken: "pk.eyJ1IjoiZGVmdmUxOTg4IiwiYSI6ImNrNzNzZmN3dzBmMnMzZ3FvMzJ0MDRpa2QifQ.xLG4lim5AonGbkDtgP9-5A"};
+//Add the circle attributes
+var circleAttributes = circles
+                       .attr("cx", function (d) { return d.cx; })
+                       .attr("cy", function (d) { return d.cy; })
+                       .attr("r", function (d) { return d.radius; })
+                      .style("fill", function (d) { return d.color; });
 
-  Plotly.newPlot('myDiv3', data, layout, config);
-});
-</script>
+var text = svgContainer.selectAll("text")
+                        .data(circleData)
+                        .enter()
+                        .append("text");
+var textLabels = text
+               .attr("x", function(d) { return d.cx; })
+                .attr("y", function(d) { return d.cy+5; })
+                .text( function (d) { return d.text; })
+                .attr("font-family", "sans-serif")
+                .style("text-anchor","middle")
+                .attr("font-size", function (d) { return d.size; })
+                .attr("fill", "black");
+  </script>
 </body>
 </html>
 
 
-
-<!-- <!DOCTYPE html>
-<html>
-<head>
-  <script type="text/javascript" src="https://raw.githubusercontent.com/defve1988/defve1988.github.io/master/myScript.js"></script>
-  </head>
-<body>
-
-<h2>External JavaScript</h2>
-
-<p id="demo">A Paragraph.</p>
-
-<button type="button" onclick="myFunction()">Try it</button>
-
-<p>(myFunction is stored in an external file called "myScript.js")</p>
-
-
-</body>
-</html> -->

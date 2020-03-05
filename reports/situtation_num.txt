@@ -1,0 +1,727 @@
+20200121-1.txt
+
+20200122-2.txt
+
+20200123-3.txt
+
+20200124-4.txt
+
+20200125-5.txt
+
+20200126-6.txt
+
+20200127-7.txt
+SITUATION IN NUMBERS 
+Globally  
+2798 confirmed  
+China 
+2741 confirmed 
+5794 suspected 
+  461 severe 
+    80 deaths  
+Outside of China 
+      37 confirmed 
+     11 countries 
+WHO RISK ASSESSMENT 
+Very High 
+China 
+Regional Level High 
+Global Level 
+
+20200128-8.txt
+SITUATION IN NUMBERS 
+Globally  
+4593 confirmed  
+China 
+4537 confirmed 
+6973 suspected 
+  976 severe 
+  106 deaths  
+Outside of China 
+      56 confirmed 
+     14 countries 
+WHO RISK ASSESSMENT1 
+China 
+Regional Level 
+Global Level 
+Very High 
+High 
+
+20200129-9.txt
+SITUATION IN NUMBERS 
+Globally  
+6065 confirmed  
+China 
+5997 confirmed 
+9239 suspected 
+1239 severe 
+  132 deaths  
+Outside of China 
+      68 confirmed 
+     15 countries 
+WHO RISK ASSESSMENT 
+China 
+Regional Level 
+Global Level 
+Very High 
+High 
+
+20200130-10.txt
+SITUATION IN NUMBERS 
+Globally  
+7818 confirmed  
+First confirmed cases of 2019-nCoV acute respiratory disease in Finland, India and 
+Philippines; all had travel history to Wuhan City.  
+China 
+• On 29 January, WHO held its third press briefing to provide update on the 
+situation. The audio can be found here. 
+• WHO recommends that the interim name of the disease causing the current 
+outbreak should be “2019-nCoV acute respiratory disease” (where ‘n’ is for novel 
+and ‘CoV’ is for coronavirus). This name complies with the WHO Best Practices for 
+Naming of New Human Infectious Diseases, which were developed through a 
+consultative process among partner agencies. Endorsement for the interim name 
+is being sought from WHO’s partner agencies, World Organization for Animal 
+Health (OIE) and Food and Agriculture Organization (FAO). The final name of the 
+disease will be provided by the International Classification of Diseases (ICD). WHO 
+is also proposing ‘2019-nCoV’ as an interim name of the virus. The final decision 
+on the official name of the virus will be made by the International Committee on 
+Taxonomy of Viruses. 
+
+20200131-11.txt
+SITUATION IN NUMBERS 
+Globally  
+9826 confirmed  
+China 
+  9720 confirmed 
+15238 suspected 
+  1527 severe 
+    213 deaths  
+• 
+Today, the first two confirmed cases of 2019-nCoV acute respiratory disease were 
+reported in Italy; both had travel history to Wuhan City.  
+• WHO’s Risk Communication Team has launched a new information platform 
+called WHO Information Network for Epidemics (EPI-WIN). EPI-WIN will use a 
+series of amplifiers to share tailored information for specific target groups. EPI-
+WIN began this week to establish connections to health care and travel and 
+tourism sectors and will work with food and agriculture and business/employer 
+sectors next week. 
+Outside of China 
+
+20200201-12.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+11953 confirmed (2128 new) 
+China 
+11821 confirmed (2102 new) 
+  1795 severe (268 new) 
+    259 deaths (46 new) 
+ Outside of China 
+    132 confirmed (26 new) 
+        23 countries (4 new) 
+WHO RISK ASSESSMENT 
+China 
+Very High 
+Regional Level High 
+Global Level 
+High 
+Figure 1. Countries, territories or areas with reported confirmed cases of 2019-nCoV, 01 February 2020 
+
+20200202-13.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+14557 confirmed (2604 new) 
+China 
+14411 confirmed (2590 new) 
+  2110 severe (315 new) 
+    304 deaths (45 new) 
+ Outside of China 
+    146 confirmed (14 new) 
+        23 countries  
+           1 death  
+WHO RISK ASSESSMENT 
+China 
+Very High 
+Regional Level High 
+Global Level 
+High 
+
+20200203-14.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+17391 confirmed (2838 new) 
+China 
+17238 confirmed (2831 new) 
+  2296 severe (186 new) 
+    361 deaths (57 new) 
+ Outside of China 
+    153 confirmed (7 new) 
+        23 countries  
+           1 death  
+WHO RISK ASSESSMENT 
+China 
+Very High 
+Regional Level High 
+Global Level 
+High 
+
+20200204-15.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+• No new countries reported cases of 2019-nCoV in the 24 hours since the previous 
+situation report.  
+Globally  
+20630 confirmed (3241 new) 
+• 
+The business sector is one audience to whom EPI-WIN is reaching out with tailored 
+information. EPI-WIN colleagues co-hosted a call with a global communications 
+firm whose clients include large multinationals. Over 50 multinationals were 
+represented on the call, where WHO provided an update of the 2019-nCoV 
+situation and responded to questions about improving communications with 
+employees; the role of businesses in public health crises; and managing 
+uncertainty through accessing accurate information.  
+China 
+20471 confirmed (3235 new) 
+  2788 severe (492 new) 
+    425 deaths (64 new) 
+
+20200205-16.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+24554 confirmed (3925 new) 
+China 
+24363 confirmed (3893 new) 
+  3219 severe (431 new) 
+    491 deaths (66 new) 
+ Outside of China 
+    191 confirmed (32 new) 
+        24 countries (1 new) 
+           1 death  
+WHO RISK ASSESSMENT 
+China 
+Very High 
+Regional Level High 
+Global Level 
+High 
+
+20200206-17.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+28 276 confirmed (3722 new) 
+China 
+28 060 confirmed (3697 new) 
+  3859 severe (640 new) 
+    564 deaths (73 new) 
+ Outside of China 
+    216 confirmed (25 new) 
+        24 countries 
+           1 death  
+WHO RISK ASSESSMENT 
+China 
+Very High 
+Regional Level High 
+Global Level 
+High 
+
+20200207-18.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+31 481 confirmed (3205 new) 
+China 
+31 211 confirmed (3151 new) 
+   4821 severe (962 new) 
+     637 deaths (73 new) 
+ Outside of China 
+      270 confirmed (54 new) 
+        24 countries 
+           1 death  
+WHO RISK ASSESSMENT 
+China 
+Very High 
+Regional Level High 
+Global Level 
+High 
+
+20200208-19.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+34 886 confirmed (3419 new) 
+China 
+34 598 confirmed (3401 new) 
+   6101 severe (1280 new) 
+     723 deaths (86 new) 
+ Outside of China 
+      288 confirmed (18 new) 
+        24 countries 
+           1 death  
+WHO RISK ASSESSMENT 
+China 
+Very High 
+Regional Level High 
+Global Level 
+High 
+
+20200209-20.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+37 558 confirmed (2676 new) 
+China 
+37 251 confirmed (2657 new) 
+   6188 severe (87 new) 
+     812 deaths (89 new) 
+ Outside of China 
+      307 confirmed (19 new) 
+        24 countries 
+           1 death  
+WHO RISK ASSESSMENT 
+China 
+Very High 
+Regional Level High 
+Global Level 
+High 
+
+20200210-21.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+40 554 confirmed (3085 new) 
+China 
+40 235 confirmed (3073 new) 
+   6484 severe (296 new) 
+     909 deaths (97 new) 
+ Outside of China 
+      319 confirmed (12 new) 
+        24 countries 
+           1 death  
+WHO RISK ASSESSMENT 
+China 
+Very High 
+Regional Level High 
+Global Level 
+High 
+
+20200211-22.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+43 103 confirmed (2560 new) 
+China 
+42 708 confirmed (2484 new) 
+   7333 severe (849 new) 
+     1017 deaths (108 new) 
+ Outside of China 
+      395 confirmed (76 new) 
+        24 countries 
+           1 death  
+WHO RISK ASSESSMENT 
+China 
+Very High 
+Regional Level High 
+Global Level 
+High 
+
+20200212-23.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+• WHO has published key considerations for repatriation and quarantine of 
+travellers in relation to COVID-19. More information can be found here.  
+Globally  
+45 171 confirmed (2068 new) 
+• The UN activated a Crisis Management Team (CMT) on the COVID -19 
+outbreak, to be led by WHO. The WHO Director-General nominated Dr Mike 
+Ryan, Executive Director of WHO Health Emergencies Programme as the Crisis 
+Manager. The CMT brings together WHO, OCHA, IMO (International Maritime 
+Organization), UNICEF, ICAO, WFP, FAO, the World Bank and several 
+departments of the UN Secretariat. It held its first meeting yesterday via 
+teleconference. This mechanism will help WHO focus on the health response 
+while the other agencies will bring their expertise to bear on the wider social, 
+economic and developmental implications of the outbreak. Additional 
+members will be included depending on the evolution of the outbreak and its 
+impact globally. 
+• WHO has prepared a list of Q&A on infection prevention and control for 
+health care workers caring for patients with suspected or confirmed 2019 -
+nCoV 
+
+20200213-24.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+• WHO has developed a database to collect the latest scientific findings and 
+knowledge on Coronavirus disease. For more information, please see here. 
+Globally  
+46 997 confirmed (1826 new) 
+• The two-day global research and innovation forum regarding COVID-19 was 
+convened in line with the WHO R&D Blueprint this week. Leading health 
+experts from around the world met at WHO to assess the current level of 
+knowledge about the new COVID-19 disease, identify gaps and work together 
+to accelerate and fund priority research needed to help stop this outbreak 
+and prepare for any future outbreaks. For more details, please see here. 
+• Overnight 14’840 cases, including 13’332 clinically diagnosed cases were 
+reported from Hubei. This is the first time China has reported clinically 
+diagnosed cases in addition to laboratory-confirmed cases. For consistency, 
+we report here only the number of laboratory-confirmed cases. WHO has 
+formally requested additional information on the clinically diagnosed cases, 
+in particular when these have occurred in the course of the outbreak and 
+whether suspect cases were reclassified as clinically diagnosed cases.   
+
+20200214-25.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+49 053 laboratory-confirmed 
+(2056 new) 
+China 
+48 548 laboratory-confirmed 
+(1998 new) 
+  1381 deaths (121 new) † 
+ Outside of China 
+      505 laboratory-confirmed 
+(58 new) 
+        24 countries 
+           2 deaths (1 new) 
+WHO RISK ASSESSMENT 
+China 
+Very High 
+Regional Level High 
+Global Level 
+
+20200215-26.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+50 580 laboratory-confirmed 
+(1527 new) 
+China 
+50 054 laboratory-confirmed 
+(1506 new) 
+  1524 deaths (121 new) † 
+ Outside of China 
+      526 laboratory-confirmed 
+      (21 new) 
+        25 countries (1 new) 
+           2 deaths 
+WHO RISK ASSESSMENT 
+China 
+Very High 
+Regional Level High 
+Global Level 
+
+20200216-27.txt
+
+20200217-28.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+71 429 confirmed (2162 new) 
+China 
+70 635 confirmed (2051 new) 
+  1772 deaths (106 new) † 
+Outside of China 
+794 confirmed (111 new) 
+  25 countries  
+    3 deaths  
+WHO RISK ASSESSMENT 
+China 
+Very High 
+Regional Level High 
+Global Level 
+High 
+Figure 1. Countries, territories or areas with reported confirmed cases of COVID-19, 17 February 2020   
+
+20200218-29.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+73 332 confirmed (1901 new) 
+China 
+72 528 confirmed (1891 new) 
+   1870 deaths (98 new) † 
+Outside of China 
+804 confirmed (10 new) 
+  25 countries  
+    3 deaths  
+WHO RISK ASSESSMENT 
+China 
+Very High 
+Regional Level High 
+Global Level 
+High 
+Figure 1. Countries, territories or areas with reported confirmed cases of COVID-19, 18 February 2020   
+
+20200219-30.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+75 204 confirmed (1872 new) 
+China † 
+74 280 confirmed (1752 new) 
+   2006 deaths (136 new)  
+Outside of China 
+924 confirmed (120 new) 
+  25 countries  
+    3 deaths  
+• Several online courses related to COVID-19 have been added to the 
+OpenWHO platform:  
+WHO RISK ASSESSMENT 
+o A general introduction to emerging respiratory viruses, including 
+novel coronaviruses (available in French, Simplified Chinese, and 
+Spanish as well).   
+o Critical Care of Severe Acute Respiratory Infections 
+
+20200220-31.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+75 748 confirmed (548 new) 
+China † 
+74 675 confirmed (399 new) 
+   2121 deaths (115 new)  
+Outside of China 
+1073 confirmed (149 new) 
+  26 countries (1 new) 
+    8 deaths (5 new) 
+WHO RISK ASSESSMENT 
+China 
+Very High 
+Regional Level High 
+Global Level 
+High 
+Figure 1. Countries, territories or areas with reported confirmed cases of COVID-19, 20 February 2020   
+
+20200221-32.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+76 769 confirmed (1021 new) 
+China 
+75569 confirmed (894 new) 
+  2239 deaths (118 new)  
+Outside of China 
+1200 confirmed (127 new) 
+  26 countries  
+    8 deaths  
+WHO RISK ASSESSMENT 
+China 
+Very High 
+Regional Level High 
+Global Level 
+High 
+Figure 1. Countries, territories or areas with reported confirmed cases of COVID-19, 21 February 2020   
+
+20200222-33.txt
+
+20200223-34.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+78 811 confirmed (1017 new) 
+China 
+77 042 confirmed (650 new) 
+  2445 deaths (97 new)  
+Outside of China 
+1769 confirmed (367 new) 
+  28 countries 
+    17 deaths (6 new)  
+WHO RISK ASSESSMENT 
+China 
+Very High 
+Regional Level High 
+Global Level 
+High 
+Figure 1. Countries, territories or areas with reported confirmed cases of COVID-19, 23 February 2020   
+
+20200224-35.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+79 331 confirmed (715 new) 
+China 
+77 262 confirmed (415 new) 
+  2595 deaths (150 new)  
+Outside of China 
+2069 confirmed (300 new) 
+  29 countries (1 new) 
+    23 deaths (6 new)  
+WHO RISK ASSESSMENT 
+China 
+Very High 
+Regional Level High 
+Global Level 
+High 
+Figure 1. Countries, territories or areas with reported confirmed cases of COVID-19, 24 February 2020   
+
+20200225-36.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+80 239 confirmed (908 new) 
+China 
+77 780 confirmed (518 new) 
+  2666 deaths (71 new)  
+Outside of China 
+2459 confirmed (390 new) 
+  33 countries (4 new) 
+    34 deaths (11 new)  
+WHO RISK ASSESSMENT 
+• A joint WHO and European Centre for Disease Prevention and Control (ECDC) 
+mission arrived in Italy on 24 February to support Italian authorities on the 
+COVID-19 situation. More information can be found here.  
+China 
+Very High 
+Regional Level High 
+
+20200226-37.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+81 109 confirmed (871 new) 
+China 
+78 191 confirmed (412 new) 
+  2718 deaths (52 new)  
+Outside of China 
+2918 confirmed (459 new) 
+  37 countries (4 new) 
+    44 deaths (10 new)  
+WHO RISK ASSESSMENT 
+China 
+Very High 
+Regional Level High 
+Global Level 
+High 
+Figure 1. Countries, territories or areas with reported confirmed cases of COVID-19, 26 February 2020   
+
+20200227-38.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+82 294 confirmed (1185 new) 
+China 
+78 630 confirmed (439 new) 
+  2747 deaths (29 new)  
+Outside of China 
+3664 confirmed (746 new) 
+  46 countries (9 new) 
+    57 deaths (13 new)  
+WHO RISK ASSESSMENT 
+China 
+Very High 
+Regional Level High 
+Global Level 
+High 
+Figure 1. Countries, territories or areas with reported confirmed cases of COVID-19, 27 February 2020   
+
+20200228-39.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+83 652 confirmed (1358 new) 
+China 
+78 961 confirmed (331 new) 
+  2791 deaths (44 new)  
+Outside of China 
+4691 confirmed (1027 new) 
+  51 countries (5 new) 
+    67 deaths (10 new)  
+WHO RISK ASSESSMENT 
+China 
+Very High 
+Regional Level Very High 
+Global Level 
+Very High 
+Figure 1. Countries, territories or areas with reported confirmed cases of COVID-19, 28 February 2020   
+
+20200229-40.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+85 403 confirmed (1753 new) 
+China 
+79 394 confirmed (435 new) 
+  2838 deaths (47 new)  
+Outside of China 
+6009 confirmed (1318 new) 
+  53 countries (2 new) 
+    86 deaths (19 new)  
+WHO RISK ASSESSMENT 
+China 
+Very High 
+Regional Level Very High 
+Global Level 
+Very High 
+Figure 1. Countries, territories or areas with reported confirmed cases of COVID-19, 29 February 2020   
+
+20200301-41.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+87 137 confirmed (1739 new) 
+China 
+79 968 confirmed (579 new) 
+  2873 deaths (35 new)  
+Outside of China 
+7169 confirmed (1160 new) 
+  58 countries (5 new) 
+    104 deaths (18 new)  
+WHO RISK ASSESSMENT 
+China 
+Very High 
+Regional Level Very High 
+Global Level 
+Very High 
+Figure 1. Countries, territories or areas with reported confirmed cases of COVID-19, 01 March 2020   
+
+20200302-42.txt
+SITUATION IN NUMBERS 
+total and new cases in last 24 
+hours 
+Globally  
+88 948 confirmed (1804 new) 
+China 
+80 174 confirmed (206 new) 
+  2915 deaths (42 new)  
+Outside of China 
+8774 confirmed (1598 new) 
+  64 countries (6 new) 
+    128 deaths (24 new)  
+WHO RISK ASSESSMENT 
+China 
+Very High 
+Regional Level Very High 
+Global Level 
+Very High 
+Figure 1. Countries, territories or areas with reported confirmed cases of COVID-19, 02 March 2020   
+

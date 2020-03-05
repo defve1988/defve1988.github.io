@@ -1,0 +1,972 @@
+Novel Coronavirus(2019-nCoV) 
+
+Situation Report – 14 - ERRATUM 
+
+Data as reported by 3 February 2020*  
+
+HIGHLIGHTS 
+
+• No new countries reported cases of 2019-nCoV in the past 24 hours.  
+
+• WHO has developed a dashboard for Novel coronavirus (2019-nCoV) with the 
+number of confirmed cases globally, which includes cases in China by provinces, 
+regions and cities, as well as confirmed cases outside China by country.  
+
+• WHO has prepared a list of Q&A to respond to queries WHO is receiving from 
+various organizations and individuals.  
+
+• Working with technical experts in health operations, WHO operational support 
+and logistics has developed a “2019-nCoV kit”, similar to prepared treatment kits 
+used for outbreaks of other high threat pathogens. In the coming days, the 
+costing, procurement and assembly of these kits will be a priority.  
+
+SITUATION IN NUMBERS 
+
+total and new cases in last 24 
+hours 
+
+Globally  
+17391 confirmed (2838 new) 
+
+China 
+17238 confirmed (2831 new) 
+  2296 severe (186 new) 
+    361 deaths (57 new) 
+
+ Outside of China 
+    153 confirmed (7 new) 
+        23 countries  
+           1 death  
+
+WHO RISK ASSESSMENT 
+
+China 
+Very High 
+Regional Level High 
+Global Level 
+High 
+
+Figure 1. Countries, territories or areas with reported confirmed cases of 2019-nCoV, 3 February 2020   
+
+*The situation report includes information provided by national authorities as of 10 AM Central European Time  
+
+TECHNICAL FOCUS: Operational Support and Logistics 
+
+WHO Operational Support and Logistics (OSL) is working to support the 2019-nCoV response, both at the global level 
+and directly with Member States. Amongst these activities, WHO OSL has updated the Disease Commodity Package 
+(DCP), which has been published here. This document provides guidance on commodities required for all aspects of 
+response. WHO OSL has also been working to develop global commodity cost estimates for the 2019-nCoV response, 
+which will aid in global strategic response planning and financing.  
+
+Working with technical experts in health operations, WHO OSL has developed a “2019-nCoV kit”, similar to prepared 
+treatment kits used for cholera, Ebola and other high threat pathogens in emergencies. In the coming days, the 
+costing, procurement and assembly of these kits will be a priority.  
+
+Through the Pandemic Supply Chain Network (PSCN), a market survey has been distributed to over 40 organizations 
+to understand the availability, distribution and forecasting of crucial response commodities throughout the world. A 
+report of the findings will be redistributed to all partners. The Network is exploring operational options within its 
+stakeholders to ensure in particular that critical personal protective equipment is secured and distributed to 
+appropriate locations. Additional stakeholders are encouraged to join the Pandemic Supply Chain Network by 
+contacting WHO OSL.  
+
+Guidance is currently under development for managing the logistics associated with case management, focusing on 
+isolation, triage and standard treatment centre configuration. 
+
+OSL is setting up a global supply chain system and a coordination mechanism between responders and suppliers to 
+ensure access to essential commodities for countries/populations most in need. 
+
+SURVEILLANCE  
+
+Table 1. Confirmed cases of 2019-nCoV acute respiratory disease reported by provinces, regions and cities in 
+China, 3 February 2020 
+
+Province/Region/City 
+
+Confirmed Cases 
+
+Hubei 
+Zhejiang 
+Guangdong 
+Henan 
+Hunan 
+Anhui 
+Jiangxi 
+Chongqing 
+Jiangsu 
+Sichuan 
+Shandong 
+Beijing 
+Shanghai 
+Fujian 
+Shaanxi 
+Guangxi 
+Heilongjiang 
+Hebei 
+Yunnan 
+Liaoning 
+Hainan 
+Shanxi 
+Gansu 
+Tianjin 
+Guizhou 
+Inner Mongolia 
+Jilin 
+Ningxia 
+Xinjiang 
+Hong Kong Sar 
+Qinghai 
+Taipei 
+Macao Sar 
+Xizang 
+
+Total 
+
+11177 
+724 
+683 
+566 
+521 
+408 
+391 
+300 
+271 
+254 
+246 
+212 
+193 
+179 
+128 
+127 
+118 
+113 
+109 
+70 
+70 
+66 
+51 
+49 
+46 
+33 
+31 
+31 
+24 
+15 
+13 
+10 
+8 
+1 
+17238 
+
+ERRATUM: Please note, due to a transposition error, several numbers in the table above were incorrectly 
+positioned in the original publication of this report. They are corrected here.  
+
+Table 2. Countries, territories or areas with reported confirmed 2019-nCoV cases and deaths. Data as of 3 
+February 2020 
+
+WHO Regional 
+Office 
+
+Country/Territory/Area 
+
+Total (new) 
+Confirmed 
+cases with 
+(new) 
+travel history 
+cases  
+to China  
+
+Total (new) cases 
+Total (new) cases 
+with possible or 
+with site of 
+confirmed 
+transmission 
+transmission 
+under 
+outside of China 
+investigation 
+
+Total (new) 
+deaths 
+
+361 (57) 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+1 
+0 
+0 
+0 
+0 
+
+0 
+
+0 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+
+0 
+
+Western Pacific 
+
+South-East Asia 
+
+Region of the 
+Americas 
+
+European Region 
+
+China* 
+
+Japan 
+Republic of Korea 
+Viet Nam 
+Singapore 
+Australia 
+Malaysia 
+Cambodia 
+Philippines 
+Thailand 
+Nepal 
+Sri Lanka 
+India 
+United States of 
+America 
+Canada 
+
+France 
+Finland 
+Germany 
+Italy 
+Russian Federation 
+Spain 
+Sweden 
+United Kingdom 
+
+17238 
+(2831) 
+20 
+15 
+8 (1) 
+18 
+12 
+8 
+1 
+2 
+19 
+1 
+1 
+3 (1) 
+
+11 (3) 
+
+4 
+
+6 
+1 
+10 (2) 
+2 
+2 
+1 
+1 
+2 
+
+Eastern 
+Mediterranean 
+Total Confirmed 
+cases 
+
+United Arab Emirates 
+
+5 
+
+Total 
+
+17391 
+(2838) 
+
+17 
+8 
+6 (1) 
+18 
+12 
+7 
+1 
+1 
+18 
+1 
+1 
+3(1) 
+
+8(1) 
+
+3 
+
+5 
+1 
+2 (2) 
+2 
+2 
+0 
+1 
+1 
+
+5 
+
+3 
+4 
+2 
+0 
+0 
+1 
+0 
+0 
+1 
+0 
+0 
+0 
+
+0 
+3 
+0 
+0 
+0 
+0 
+0 
+1 
+0 
+0 
+0 
+0 
+
+2(1) 
+
+(1) 
+
+0 
+
+1 
+0 
+8 
+0 
+0 
+1 
+0 
+1 
+
+0 
+
+1 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+
+0 
+
+123 (5) 
+
+24 (1) 
+
+6 (1) 
+
+362 (57) 
+
+*Confirmed cases in China include cases confirmed in Hong Kong SAR (15 confirmed cases (1 new)), Macao SAR (8 confirmed cases (1 new)) 
+and Taipei (10 confirmed cases). 
+Note: Case classifications are based on WHO case definitions for 2019-nCoV. 
+
+Figure 2: Epidemic curve of 2019-nCoV cases (n=88) identified outside of China, by date of onset of symptoms and 
+travel history, 3 February 2020  
+
+Note for figure 2: Of the 153 cases reported outside China, 12 were detected while asymptomatic. For the remaining 
+141 cases, information on date of onset is available only for the 88 cases presented in the epidemiologic curve. 
+
+Figure 3: Epidemic curve of 2019-nCoV cases (n=153) identified outside of China, by date of reporting and travel 
+history, 3 February 2020  
+
+STRATEGIC OBJECTIVES 
+
+WHO’s strategic objectives for this response are to: 
+
+• 
+
+• 
+• 
+
+Limit human-to-human transmission including reducing secondary infections among close contacts and 
+health care workers, preventing transmission amplification events, and preventing further international 
+spread from China*;  
+Identify, isolate and care for patients early, including providing optimized care for infected patients; 
+Identify and reduce transmission from the animal source; 
+• Address crucial unknowns regarding clinical severity, extent of transmission and infection, treatment 
+options, and accelerate the development of diagnostics, therapeutics and vaccines; 
+• Communicate critical risk and event information to all communities and counter misinformation; 
+• Minimize social and economic impact through multisectoral partnerships. 
+
+*This can be achieved through a combination of public health measures, such as rapid identification, diagnosis 
+and management of the cases, identification and follow up of the contacts, infection prevention and control in 
+healthcare settings, implementation of health measures for travellers, awareness- raising in the population and 
+risk communication. 
+
+PREPAREDNESS AND RESPONSE 
+
+• WHO has developed a protocol for the investigation of early cases (the “First Few X (FFX) Cases and contact 
+investigation protocol for 2019-novel coronavirus (2019-nCoV) infection”). The protocol is designed to gain an 
+early understanding of the key clinical, epidemiological and virological characteristics of the first cases of 2019-
+nCoV infection detected in any individual country, to inform the development and updating of public health 
+guidance to manage cases and reduce potential spread and impact of infection.  
+• WHO has been in regular and direct contact with Member States where cases have been reported. WHO is also 
+informing other countries about the situation and providing support as requested. 
+• WHO has developed interim guidance for laboratory diagnosis, advice on the use of masks during home care and 
+in health care settings in the context of the novel coronavirus (2019-nCoV) outbreak, clinical management, 
+infection prevention and control in health care settings, home care for patients with suspected novel 
+coronavirus, risk communication and community engagement and Global Surveillance for human infection with 
+novel coronavirus (2019-nCoV). 
+• WHO has prepared disease commodity package that includes an essential list of biomedical equipment, 
+medicines and supplies necessary to care for patients with 2019-nCoV.  
+• WHO has provided recommendations to reduce risk of transmission from animals to humans. 
+• WHO has published an updated advice for international traffic in relation to the outbreak of the novel 
+coronavirus 2019-nCoV. 
+• WHO has activated of R&D blueprint to accelerate diagnostics, vaccines, and therapeutics. 
+• WHO has developed an online course to provide general introduction to emerging respiratory viruses, including 
+novel coronaviruses.  
+• WHO is providing guidance on early investigations, which are critical to carry out early in an outbreak of a new 
+virus. The data collected from the protocols can be used to refine recommendations for surveillance and case 
+definitions, to characterize the key epidemiological transmission features of 2019-nCoV, help understand spread, 
+severity, spectrum of disease, impact on the community and to inform operational models for implementation of 
+countermeasures such as case isolation, contact tracing and isolation. Several protocols are available here: 
+https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/early-investigations  
+
+• WHO is working with its networks of researchers and other experts to coordinate global work on surveillance, 
+epidemiology, modelling, diagnostics, clinical care and treatment, and other ways to identify, manage the 
+disease and limit onward transmission. WHO has issued interim guidance for countries, which are updated 
+regularly. 
+• WHO is working with global expert networks and partnerships for laboratory, infection prevention and control, 
+clinical management and mathematical modelling. 
+
+RECOMMENDATIONS AND ADVICE FOR THE PUBLIC 
+
+During previous outbreaks due to other coronavirus (Middle-East Respiratory Syndrome (MERS) and Severe 
+Acute Respiratory Syndrome (SARS), human-to-human transmission occurred through droplets, contact and 
+fomites, suggesting that the transmission mode of the 2019-nCoV can be similar. The basic principles to reduce 
+the general risk of transmission of acute respiratory infections include the following: 
+
+• 
+
+• Avoiding close contact with people suffering from acute respiratory infections. 
+Frequent hand-washing, especially after direct contact with ill people or their environment. 
+• Avoiding unprotected contact with farm or wild animals. 
+• People with symptoms of acute respiratory infection should practice cough etiquette (maintain distance, cover 
+coughs and sneezes with disposable tissues or clothing, and wash hands). 
+• Within healthcare facilities, enhance standard infection prevention and control practices in hospitals, especially in 
+emergency departments. 
+
+WHO does not recommend any specific health measures for travellers. In case of symptoms suggestive of respiratory 
+illness either during or after travel, travellers are encouraged to seek medical attention and share their travel history 
+with their healthcare provider.  
+
+Novel Coronavirus(2019-nCoV) 
+
+Situation Report – 14 - ERRATUM 
+
+Data as reported by 3 February 2020*  
+
+HIGHLIGHTS 
+
+• No new countries reported cases of 2019-nCoV in the past 24 hours.  
+
+• WHO has developed a dashboard for Novel coronavirus (2019-nCoV) with the 
+number of confirmed cases globally, which includes cases in China by provinces, 
+regions and cities, as well as confirmed cases outside China by country.  
+
+• WHO has prepared a list of Q&A to respond to queries WHO is receiving from 
+various organizations and individuals.  
+
+• Working with technical experts in health operations, WHO operational support 
+and logistics has developed a “2019-nCoV kit”, similar to prepared treatment kits 
+used for outbreaks of other high threat pathogens. In the coming days, the 
+costing, procurement and assembly of these kits will be a priority.  
+
+SITUATION IN NUMBERS 
+
+total and new cases in last 24 
+hours 
+
+Globally  
+17391 confirmed (2838 new) 
+
+China 
+17238 confirmed (2831 new) 
+  2296 severe (186 new) 
+    361 deaths (57 new) 
+
+ Outside of China 
+    153 confirmed (7 new) 
+        23 countries  
+           1 death  
+
+WHO RISK ASSESSMENT 
+
+China 
+Very High 
+Regional Level High 
+Global Level 
+High 
+
+Figure 1. Countries, territories or areas with reported confirmed cases of 2019-nCoV, 3 February 2020   
+
+*The situation report includes information provided by national authorities as of 10 AM Central European Time  
+
+TECHNICAL FOCUS: Operational Support and Logistics 
+
+WHO Operational Support and Logistics (OSL) is working to support the 2019-nCoV response, both at the global level 
+and directly with Member States. Amongst these activities, WHO OSL has updated the Disease Commodity Package 
+(DCP), which has been published here. This document provides guidance on commodities required for all aspects of 
+response. WHO OSL has also been working to develop global commodity cost estimates for the 2019-nCoV response, 
+which will aid in global strategic response planning and financing.  
+
+Working with technical experts in health operations, WHO OSL has developed a “2019-nCoV kit”, similar to prepared 
+treatment kits used for cholera, Ebola and other high threat pathogens in emergencies. In the coming days, the 
+costing, procurement and assembly of these kits will be a priority.  
+
+Through the Pandemic Supply Chain Network (PSCN), a market survey has been distributed to over 40 organizations 
+to understand the availability, distribution and forecasting of crucial response commodities throughout the world. A 
+report of the findings will be redistributed to all partners. The Network is exploring operational options within its 
+stakeholders to ensure in particular that critical personal protective equipment is secured and distributed to 
+appropriate locations. Additional stakeholders are encouraged to join the Pandemic Supply Chain Network by 
+contacting WHO OSL.  
+
+Guidance is currently under development for managing the logistics associated with case management, focusing on 
+isolation, triage and standard treatment centre configuration. 
+
+OSL is setting up a global supply chain system and a coordination mechanism between responders and suppliers to 
+ensure access to essential commodities for countries/populations most in need. 
+
+SURVEILLANCE  
+
+Table 1. Confirmed cases of 2019-nCoV acute respiratory disease reported by provinces, regions and cities in 
+China, 3 February 2020 
+
+Province/Region/City 
+
+Confirmed Cases 
+
+Hubei 
+Zhejiang 
+Guangdong 
+Henan 
+Hunan 
+Anhui 
+Jiangxi 
+Chongqing 
+Jiangsu 
+Sichuan 
+Shandong 
+Beijing 
+Shanghai 
+Fujian 
+Shaanxi 
+Guangxi 
+Heilongjiang 
+Hebei 
+Yunnan 
+Liaoning 
+Hainan 
+Shanxi 
+Gansu 
+Tianjin 
+Guizhou 
+Inner Mongolia 
+Jilin 
+Ningxia 
+Xinjiang 
+Hong Kong Sar 
+Qinghai 
+Taipei 
+Macao Sar 
+Xizang 
+
+Total 
+
+11177 
+724 
+683 
+566 
+521 
+408 
+391 
+300 
+271 
+254 
+246 
+212 
+193 
+179 
+128 
+127 
+118 
+113 
+109 
+70 
+70 
+66 
+51 
+49 
+46 
+33 
+31 
+31 
+24 
+15 
+13 
+10 
+8 
+1 
+17238 
+
+ERRATUM: Please note, due to a transposition error, several numbers in the table above were incorrectly 
+positioned in the original publication of this report. They are corrected here.  
+
+Table 2. Countries, territories or areas with reported confirmed 2019-nCoV cases and deaths. Data as of 3 
+February 2020 
+
+WHO Regional 
+Office 
+
+Country/Territory/Area 
+
+Total (new) 
+Confirmed 
+cases with 
+(new) 
+travel history 
+cases  
+to China  
+
+Total (new) cases 
+Total (new) cases 
+with possible or 
+with site of 
+confirmed 
+transmission 
+transmission 
+under 
+outside of China 
+investigation 
+
+Total (new) 
+deaths 
+
+361 (57) 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+1 
+0 
+0 
+0 
+0 
+
+0 
+
+0 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+
+0 
+
+Western Pacific 
+
+South-East Asia 
+
+Region of the 
+Americas 
+
+European Region 
+
+China* 
+
+Japan 
+Republic of Korea 
+Viet Nam 
+Singapore 
+Australia 
+Malaysia 
+Cambodia 
+Philippines 
+Thailand 
+Nepal 
+Sri Lanka 
+India 
+United States of 
+America 
+Canada 
+
+France 
+Finland 
+Germany 
+Italy 
+Russian Federation 
+Spain 
+Sweden 
+United Kingdom 
+
+17238 
+(2831) 
+20 
+15 
+8 (1) 
+18 
+12 
+8 
+1 
+2 
+19 
+1 
+1 
+3 (1) 
+
+11 (3) 
+
+4 
+
+6 
+1 
+10 (2) 
+2 
+2 
+1 
+1 
+2 
+
+Eastern 
+Mediterranean 
+Total Confirmed 
+cases 
+
+United Arab Emirates 
+
+5 
+
+Total 
+
+17391 
+(2838) 
+
+17 
+8 
+6 (1) 
+18 
+12 
+7 
+1 
+1 
+18 
+1 
+1 
+3(1) 
+
+8(1) 
+
+3 
+
+5 
+1 
+2 (2) 
+2 
+2 
+0 
+1 
+1 
+
+5 
+
+3 
+4 
+2 
+0 
+0 
+1 
+0 
+0 
+1 
+0 
+0 
+0 
+
+0 
+3 
+0 
+0 
+0 
+0 
+0 
+1 
+0 
+0 
+0 
+0 
+
+2(1) 
+
+(1) 
+
+0 
+
+1 
+0 
+8 
+0 
+0 
+1 
+0 
+1 
+
+0 
+
+1 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+
+0 
+
+123 (5) 
+
+24 (1) 
+
+6 (1) 
+
+362 (57) 
+
+*Confirmed cases in China include cases confirmed in Hong Kong SAR (15 confirmed cases (1 new)), Macao SAR (8 confirmed cases (1 new)) 
+and Taipei (10 confirmed cases). 
+Note: Case classifications are based on WHO case definitions for 2019-nCoV. 
+
+Figure 2: Epidemic curve of 2019-nCoV cases (n=88) identified outside of China, by date of onset of symptoms and 
+travel history, 3 February 2020  
+
+Note for figure 2: Of the 153 cases reported outside China, 12 were detected while asymptomatic. For the remaining 
+141 cases, information on date of onset is available only for the 88 cases presented in the epidemiologic curve. 
+
+Figure 3: Epidemic curve of 2019-nCoV cases (n=153) identified outside of China, by date of reporting and travel 
+history, 3 February 2020  
+
+STRATEGIC OBJECTIVES 
+
+WHO’s strategic objectives for this response are to: 
+
+• 
+
+• 
+• 
+
+Limit human-to-human transmission including reducing secondary infections among close contacts and 
+health care workers, preventing transmission amplification events, and preventing further international 
+spread from China*;  
+Identify, isolate and care for patients early, including providing optimized care for infected patients; 
+Identify and reduce transmission from the animal source; 
+• Address crucial unknowns regarding clinical severity, extent of transmission and infection, treatment 
+options, and accelerate the development of diagnostics, therapeutics and vaccines; 
+• Communicate critical risk and event information to all communities and counter misinformation; 
+• Minimize social and economic impact through multisectoral partnerships. 
+
+*This can be achieved through a combination of public health measures, such as rapid identification, diagnosis 
+and management of the cases, identification and follow up of the contacts, infection prevention and control in 
+healthcare settings, implementation of health measures for travellers, awareness- raising in the population and 
+risk communication. 
+
+PREPAREDNESS AND RESPONSE 
+
+• WHO has developed a protocol for the investigation of early cases (the “First Few X (FFX) Cases and contact 
+investigation protocol for 2019-novel coronavirus (2019-nCoV) infection”). The protocol is designed to gain an 
+early understanding of the key clinical, epidemiological and virological characteristics of the first cases of 2019-
+nCoV infection detected in any individual country, to inform the development and updating of public health 
+guidance to manage cases and reduce potential spread and impact of infection.  
+• WHO has been in regular and direct contact with Member States where cases have been reported. WHO is also 
+informing other countries about the situation and providing support as requested. 
+• WHO has developed interim guidance for laboratory diagnosis, advice on the use of masks during home care and 
+in health care settings in the context of the novel coronavirus (2019-nCoV) outbreak, clinical management, 
+infection prevention and control in health care settings, home care for patients with suspected novel 
+coronavirus, risk communication and community engagement and Global Surveillance for human infection with 
+novel coronavirus (2019-nCoV). 
+• WHO has prepared disease commodity package that includes an essential list of biomedical equipment, 
+medicines and supplies necessary to care for patients with 2019-nCoV.  
+• WHO has provided recommendations to reduce risk of transmission from animals to humans. 
+• WHO has published an updated advice for international traffic in relation to the outbreak of the novel 
+coronavirus 2019-nCoV. 
+• WHO has activated of R&D blueprint to accelerate diagnostics, vaccines, and therapeutics. 
+• WHO has developed an online course to provide general introduction to emerging respiratory viruses, including 
+novel coronaviruses.  
+• WHO is providing guidance on early investigations, which are critical to carry out early in an outbreak of a new 
+virus. The data collected from the protocols can be used to refine recommendations for surveillance and case 
+definitions, to characterize the key epidemiological transmission features of 2019-nCoV, help understand spread, 
+severity, spectrum of disease, impact on the community and to inform operational models for implementation of 
+countermeasures such as case isolation, contact tracing and isolation. Several protocols are available here: 
+https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/early-investigations  
+
+• WHO is working with its networks of researchers and other experts to coordinate global work on surveillance, 
+epidemiology, modelling, diagnostics, clinical care and treatment, and other ways to identify, manage the 
+disease and limit onward transmission. WHO has issued interim guidance for countries, which are updated 
+regularly. 
+• WHO is working with global expert networks and partnerships for laboratory, infection prevention and control, 
+clinical management and mathematical modelling. 
+
+RECOMMENDATIONS AND ADVICE FOR THE PUBLIC 
+
+During previous outbreaks due to other coronavirus (Middle-East Respiratory Syndrome (MERS) and Severe 
+Acute Respiratory Syndrome (SARS), human-to-human transmission occurred through droplets, contact and 
+fomites, suggesting that the transmission mode of the 2019-nCoV can be similar. The basic principles to reduce 
+the general risk of transmission of acute respiratory infections include the following: 
+
+• 
+
+• Avoiding close contact with people suffering from acute respiratory infections. 
+Frequent hand-washing, especially after direct contact with ill people or their environment. 
+• Avoiding unprotected contact with farm or wild animals. 
+• People with symptoms of acute respiratory infection should practice cough etiquette (maintain distance, cover 
+coughs and sneezes with disposable tissues or clothing, and wash hands). 
+• Within healthcare facilities, enhance standard infection prevention and control practices in hospitals, especially in 
+emergency departments. 
+
+WHO does not recommend any specific health measures for travellers. In case of symptoms suggestive of respiratory 
+illness either during or after travel, travellers are encouraged to seek medical attention and share their travel history 
+with their healthcare provider.  
+
