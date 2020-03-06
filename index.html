@@ -5,155 +5,162 @@
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="https://unpkg.com/d3-simple-slider"></script>
-  <script src="dispMap.js"></script>
-  <style type="text/css">
-    #map {
-      height: 650px;
-      width: 1400px;
-    }
 
-  </style>
+  <script src="./src/dispMap.js"></script>
+  <script src="./src/setlegend.js"></script>
+  <link rel="stylesheet" type="text/css" href="./src/style.css">
 </head>
+
 <header>
-Coronavirus Disease 2019 (COVID-19) Tracker (Total Confirmed Cases)
+Coronavirus Disease 2019 (COVID-19) Tracker
 </header>
 
 <body>
-  <div id="slider"><span id="legend"></span></div>
+  <div id="slider"><!-- <span id="legend"></span> --></div>
+  <hr>
+    <div id="global_num">
+      <p style="font-weight: 800;font-size:26px">Global Situation</p>
+      <p id="date"></p>
+      <p style="">Total Infected Countries</p>
+      <p id="tot_country"></p>
+      <p style="">Total Confirmed Cases</p>
+      <p id="tot_confirm"></p>
+      <p style="">Total Recovered Casese</p>
+      <p id="tot_recover"></p>
+      <p style="">Total Deaths</p>
+      <p id="tot_death"></p>
+    </div>
+  <div id="parent">
+    <div id="check_box"></div>
+    <div id="map"></div>
+  </div>
+
+  <div id="barchart"></div>
   
-  <div id="map"></div>
-  
+
+  <div>By Defve1988</div>
 
   <script>
-    confirmed = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv'
-    var config = {mapboxAccessToken: "pk.eyJ1IjoiZGVmdmUxOTg4IiwiYSI6ImNrNzNzZmN3dzBmMnMzZ3FvMzJ0MDRpa2QifQ.xLG4lim5AonGbkDtgP9-5A"};
+    Plotly.d3.csv(confirmed, function(err, rows_confirm){
+      Plotly.d3.csv(recovered, function(err, row_recover){
+        Plotly.d3.csv(deaths, function(err, row_death){
 
-    var data = 0;
-    Plotly.d3.csv(confirmed, function(err, rows){
+          var DAYS = Object.keys(rows_confirm[0]).length-4
+          var dataNewYorkTimes = d3.range(1, 41).map(d => ({
+              year: d,
+              value: 10000 * Math.exp(-(d - 1) / 40),
+            }));
 
-    var DAYS = 42
-    var dataNewYorkTimes = d3.range(1, 41).map(d => ({
-        year: d,
-        value: 10000 * Math.exp(-(d - 1) / 40),
-      }));
+          var dataTime = d3.range(0, DAYS).map(function(d){return new Date(2020, 0, 22+d);});
+          mapbox_data.ini_data(rows_confirm,d3.min(dataTime),'confirm')
+          mapbox_data.ini_data(row_recover,d3.min(dataTime),'recover')
+          mapbox_data.ini_data(row_death,d3.min(dataTime),'death')
+          mapbox_data.adjust_size()
 
-    var dataTime = d3.range(0, DAYS).map(function(d){return new Date(2020, 0, 22+d);});
-    var values = get_data(rows,get_header(d3.min(dataTime)));
-    var cityName = values[0]
-    var cityCountry = values[1]
-    var cityPop = values[2]
-    var cityLat = values[3]
-    var cityLon = values[4]
-    var citySize = values[5]
-    var levels = values[6]
-    var hoverText = values[7]
+          Plotly.newPlot(map, mapbox_data.data, map_layout, config);
+          Plotly.addTraces(map, mapbox_data.confirm);
+          Plotly.addTraces(map, mapbox_data.recover);
+          Plotly.addTraces(map, mapbox_data.death);
 
-    // console.log(levels)
-    var data = [{
-        type: 'scattermapbox',
-        // mode: 'text',
-        name: levels,
-        lat: cityLat,
-        lon: cityLon,
-        hoverinfo: 'text',
-        text: hoverText,
-        marker: {
-            size: citySize,
-            color: 'red',
-            line: {
-                color: 'black',
-                width: 10
-            },
-            opacity:0.5
-        }
-    }];
-// console.log(data)
-// console.log(update);
 
-// console.log(map);
-  Plotly.newPlot(map, data, map_layout, config);
+          mapbox_data.ini_bar()
+          Plotly.newPlot(barchart, mapbox_data.bar_data, bar_layout);
 
-    var slider = d3
-      .sliderBottom()
-      .min(d3.min(dataTime))
-      .max(d3.max(dataTime))
-      .step(1000 * 60 * 60 * 24)
-      .width(600)
-      .ticks(10)
-      .fill(["red"])
-      .displayValue(true)
-      .on('onchange', val => {
-        values = get_data(rows,get_header(val));
-        cityName = values[0]
-        cityCountry = values[1]
-        cityPop = values[2]
-        cityLat = values[3]
-        cityLon = values[4]
-        citySize = values[5]
-        levels = values[6]
-        hoverText = values[7]
-        for ( var i = 0 ; i < cityName.length; i++) {
-          data[0].name[i] = levels[i];
-          data[0].text[i] = hoverText[i];
-          data[0].marker.size[i] = citySize[i];
-        }
-        // console.log(data[0].name);
-        Plotly.redraw(map)
-      });
-   
-    d3.select('#slider')
-      .append('svg')
-      .attr('width', 800)
-      .attr('height', 100)
-      .append('g')
-      .attr('transform', 'translate(30,30)')
-      .call(slider);
+          mapbox_data.set_nums(d3.min(dataTime))
+          console.log(mapbox_data)
 
-})
+          var slider = d3
+            .sliderBottom()
+            .min(d3.min(dataTime))
+            .max(d3.max(dataTime))
+            .step(1000 * 60 * 60 * 24)
+            .width(600)
+            .ticks(10)
+            .fill(["red"])
+            .displayValue(true)
+            .on('onchange', val => {
+              mapbox_data.update_data(rows_confirm,val,'confirm')
+              mapbox_data.update_data(row_recover,val,'recover')
+              mapbox_data.update_data(row_death,val,'death')
+              mapbox_data.adjust_size()
+              Plotly.redraw(map)
+              mapbox_data.set_nums(val)
 
- var circleData = [
-   {"cx": 80, "cy": 80, "radius": 65, "color" : "red", "text":"Hubei","size":"27px" },
-   {"cx": 180, "cy": 80, "radius": 29, "color" : "red", "text":">5000","size":"18px"},
-   {"cx": 245, "cy": 80, "radius": 26, "color" : "red", "text":">2000","size":"16px"},
-   {"cx": 300, "cy": 80, "radius": 23, "color" : "red", "text":">1000","size":"16px"},
-   {"cx": 350, "cy": 80, "radius": 20, "color" : "red", "text":">500","size":"14px"},
-   {"cx": 395, "cy": 80, "radius": 17, "color" : "red", "text":">200","size":"14px"},
-   {"cx": 430, "cy": 80, "radius": 14, "color" : "red", "text":">100","size":"12px"},
-   {"cx": 465, "cy": 80, "radius": 11, "color" : "red", "text":">25","size":"12px"},
-   {"cx": 495, "cy": 80, "radius": 8, "color" : "red", "text":">10","size":"12px"},
-   {"cx": 520, "cy": 80, "radius": 5, "color" : "red", "text":">5","size":"12px"},
-   {"cx": 540, "cy": 80, "radius": 2, "color" : "red", "text":">1","size":"12px"}];
- 
- //Create the SVG Viewport
- var svgContainer = d3.select("#legend").append("svg")
-                                      .attr("width",550)
-                                   .attr("height",180);
+              mapbox_data.ini_bar()
+              Plotly.newPlot(barchart, mapbox_data.bar_data, bar_layout);
+            });
+         
+          d3.select('#slider')
+            .append('svg')
+            .attr('width', 800)
+            .attr('height', 100)
+            .append('g')
+            .attr('transform', 'translate(30,30)')
+            .call(slider);
 
-//Add circles to the svgContainer
-var circles = svgContainer.selectAll("circle")
-                           .data(circleData)
-                           .enter()
-                           .append("circle");
+          d3.select("#check_box")
+            .append("svg")
+            .attr("height",20)
+            .attr("width",20)
+            .append("circle")
+            .attr("cx",10)
+            .attr("cy",12)
+            .attr("r",8)
+            .style("fill","#ff3300")
+            .style("opacity", 0.5)
+          d3.select("#check_box")
+            .append("input")
+            .attr("type", "checkbox")
+            .attr("checked", true)
+            .attr("id","box1")
+            .attr("onClick", "boxclick(this,mapbox_data)")
+          d3.select("#check_box")
+            .append('label')
+            .text("Confirmed Cases")
 
-//Add the circle attributes
-var circleAttributes = circles
-                       .attr("cx", function (d) { return d.cx; })
-                       .attr("cy", function (d) { return d.cy; })
-                       .attr("r", function (d) { return d.radius; })
-                      .style("fill", function (d) { return d.color; });
+          d3.select("#check_box")
+            .append("svg")
+            .attr("height",20)
+            .attr("width",20)
+            .append("circle")
+            .attr("cx",10)
+            .attr("cy",12)
+            .attr("r",8)
+            .style("fill","#15F228")
+            .style("opacity", 0.7)
+          d3.select("#check_box")
+            .append("input")
+            .attr("type", "checkbox")
+            .attr("checked", true)
+            .attr("id","box2")
+            .attr("onClick", "boxclick(this,mapbox_data)")
+          d3.select("#check_box")
+            .append('label')
+            .text("Recovered Cases")
 
-var text = svgContainer.selectAll("text")
-                        .data(circleData)
-                        .enter()
-                        .append("text");
-var textLabels = text
-               .attr("x", function(d) { return d.cx; })
-                .attr("y", function(d) { return d.cy+5; })
-                .text( function (d) { return d.text; })
-                .attr("font-family", "sans-serif")
-                .style("text-anchor","middle")
-                .attr("font-size", function (d) { return d.size; })
-                .attr("fill", "black");
+          d3.select("#check_box")
+            .append("svg")
+            .attr("height",20)
+            .attr("width",20)
+            .append("circle")
+            .attr("cx",10)
+            .attr("cy",12)
+            .attr("r",8)
+            .style("fill","#4d0000")
+            .style("opacity", 1.0)
+          d3.select("#check_box")
+            .append("input")
+            .attr("type", "checkbox")
+            .attr("checked", true)
+            .attr("id","box3")
+            .attr("onClick", "boxclick(this,mapbox_data)")
+          d3.select("#check_box")
+            .append('label')
+            .text("Death Cases")
+          })
+        })
+      })
+    // set_legend()
   </script>
 </body>
 </html>
