@@ -176,11 +176,9 @@ var mapbox_data={
         	}
         }
 		this.bar_data = [death, recover, active];
-		console.log(this.bar_data)
+		// console.log(this.bar_data)
 	},
-	update_bar: function(){
 
-	},
 	set_nums: function(val){
 		var confirm=0,
 			country=0,
@@ -279,7 +277,7 @@ function get_data(rows,header,item){
     for ( var i = 0 ; i < cityPop.length; i++) {
         var currentSize = 0
         if (cityPop[i] > 0){
-        	currentSize=Math.log(cityPop[i])*5+1 
+        	currentSize=Math.log(cityPop[i])*5+5 
 	    }
         if (cityName[i]==''){var currentText = cityCountry[i] + ": " + cityPop[i];}
         else{

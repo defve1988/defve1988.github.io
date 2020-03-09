@@ -35,7 +35,7 @@ Coronavirus Disease 2019 (COVID-19) Tracker
     <div id="map"></div>
   </div>
 
-  <div id="barchart"></div>
+  <div id="barchart" style="overflow:auto;"></div>
   
 
 
@@ -62,11 +62,24 @@ Coronavirus Disease 2019 (COVID-19) Tracker
           Plotly.addTraces(map, mapbox_data.death);
 
 
+  //         var line_data = [{
+  //   type: 'scattermapbox',
+  //   lat: [ 40.7127, 45, 51.5072 ],
+  //   lon: [ -74.0059, -37, 0.1275 ],
+  //   mode: 'lines',
+  //   line:{
+  //       width: 2,
+  //       color: 'blue'
+  //   }
+  // }];
+
+  //         Plotly.addTraces(map, line_data);
+
           mapbox_data.ini_bar()
           Plotly.newPlot(barchart, mapbox_data.bar_data, bar_layout);
 
           mapbox_data.set_nums(d3.min(dataTime))
-          console.log(mapbox_data)
+          // console.log(mapbox_data)
 
           var slider = d3
             .sliderBottom()
