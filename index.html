@@ -51,9 +51,10 @@ Coronavirus Disease 2019 (COVID-19) Tracker
             }));
 
           var dataTime = d3.range(0, DAYS).map(function(d){return new Date(2020, 0, 22+d);});
-          mapbox_data.ini_data(rows_confirm,d3.min(dataTime),'confirm')
-          mapbox_data.ini_data(row_recover,d3.min(dataTime),'recover')
-          mapbox_data.ini_data(row_death,d3.min(dataTime),'death')
+          display_date = d3.max(dataTime)
+          mapbox_data.ini_data(rows_confirm,display_date,'confirm')
+          mapbox_data.ini_data(row_recover,display_date,'recover')
+          mapbox_data.ini_data(row_death,display_date,'death')
           mapbox_data.adjust_size()
 
           Plotly.newPlot(map, mapbox_data.data, map_layout, config);
@@ -78,7 +79,7 @@ Coronavirus Disease 2019 (COVID-19) Tracker
           mapbox_data.ini_bar()
           Plotly.newPlot(barchart, mapbox_data.bar_data, bar_layout);
 
-          mapbox_data.set_nums(d3.min(dataTime))
+          mapbox_data.set_nums(display_date)
           // console.log(mapbox_data)
 
           var slider = d3
@@ -101,14 +102,20 @@ Coronavirus Disease 2019 (COVID-19) Tracker
               mapbox_data.ini_bar()
               Plotly.newPlot(barchart, mapbox_data.bar_data, bar_layout);
             });
-         
+
           d3.select('#slider')
             .append('svg')
-            .attr('width', 800)
+            .attr('width', 700)
             .attr('height', 100)
             .append('g')
             .attr('transform', 'translate(30,30)')
             .call(slider);
+
+          slider.value([display_date])
+
+          d3.select('#slider')
+            .append("text")
+            .text("Move for the historical data.")
 
           d3.select("#check_box")
             .append("svg")
