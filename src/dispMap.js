@@ -244,7 +244,7 @@ var mapbox_data={
 	adjust_size: function(){
         for ( var i = 0 ; i < this["recover"][0].pop.length; i++) {
         	temp = parseInt(this["recover"][0].pop[i])+parseInt(this["death"][0].pop[i])
-        	this["recover"][0].marker.size[i] =Math.log(temp)*5+1
+        	this["recover"][0].marker.size[i] =Math.log(temp)*5+5
         }
 	},
 	update_data: function(rows,val,item){
