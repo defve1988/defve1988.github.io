@@ -3,6 +3,33 @@ var recovered = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/maste
 var deaths = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv';
 var config = {mapboxAccessToken: "pk.eyJ1IjoiZGVmdmUxOTg4IiwiYSI6ImNrNzNzZmN3dzBmMnMzZ3FvMzJ0MDRpa2QifQ.xLG4lim5AonGbkDtgP9-5A"};
 
+var bar_layout ={
+	barmode: 'stack',
+	xaxis: {
+	  	type: 'log',
+		autorange: true,
+		tickfont: {
+		size: 12,
+	  	color: 'rgb(107, 107, 107)',
+	}},
+	yaxis: {
+		titlefont: {
+	  		size: 12,
+	  		color: 'rgb(107, 107, 107)'
+		},
+		tickfont: {
+	  		size: 12,
+	  		color: 'rgb(107, 107, 107)'
+		}
+	},
+	margin: {r: 10, t: 10, b: 50, l: 150, pad: 10},
+  	legend: {
+    x: 1,
+    xanchor: 'right',
+    y: 1,
+    }
+}
+
 var map_layout = {
 	title: "",
 	titlefont: {color:"red", size:24},
@@ -91,6 +118,66 @@ var mapbox_data={
 	recover: [],
 	death: [],
 	bar_data: [],
+	ini_bar: function(){
+		var death = {
+			x: [],
+			y: [],
+			name: "Death",
+			type: "bar",
+			orientation: 'h',
+		  	marker: {
+    			color: '#4d0000',
+    			opacity: 1,
+    		},
+		}
+
+		var recover = {
+			x: [],
+			y: [],
+			name: "Recovered",
+			orientation: 'h',
+			type: "bar",
+		  	marker: {
+    			color: '#15F228',
+    			opacity: 0.7,
+    		},
+		}
+
+		var active = {
+			x: [],
+			y: [],
+			name: "Active",
+			orientation: 'h',
+			type: "bar",
+		  	marker: {
+    			color: '#ff3300',
+    			opacity: 0.5,
+    		},
+		}
+
+		l = this['confirm'][0].pop.length
+        for ( var i = 0 ; i < l; i++) {
+        	if (this['confirm'][0].pop[i]>0){
+        		if (! recover.y.includes(this['confirm'][0].country[i])){
+	        		recover.y.push(this['confirm'][0].country[i])
+	        		active.y.push(this['confirm'][0].country[i])
+	        		death.y.push(this['confirm'][0].country[i])
+
+	        		recover.x.push(parseInt(this['recover'][0].pop[i]))
+	        		active.x.push(parseInt(this['confirm'][0].pop[i])-parseInt(this['recover'][0].pop[i])-parseInt(this['death'][0].pop[i]))
+	        		death.x.push(parseInt(this['death'][0].pop[i]))
+        		}
+        		else{
+        			index = recover.y.indexOf(this['confirm'][0].country[i])
+        			recover.x[index] +=parseInt(this['recover'][0].pop[i])
+        			death.x[index] +=parseInt(this['death'][0].pop[i])
+        			active.x[index] +=parseInt(this['confirm'][0].pop[i])-parseInt(this['recover'][0].pop[i])-parseInt(this['death'][0].pop[i])
+        		}
+        	}
+        }
+		this.bar_data = [death, recover, active];
+		// console.log(this.bar_data)
+	},
 
 	set_nums: function(val){
 		var confirm=0,
@@ -204,120 +291,3 @@ function get_data(rows,header,item){
     }
     return [cityName, cityCountry, cityPop, cityLat, cityLon, citySize, hoverText]
 }
-
-
-    Plotly.d3.csv(confirmed, function(err, rows_confirm){
-      Plotly.d3.csv(recovered, function(err, row_recover){
-        Plotly.d3.csv(deaths, function(err, row_death){
-
-          var DAYS = Object.keys(rows_confirm[0]).length-4
-          var dataNewYorkTimes = d3.range(1, 41).map(d => ({
-              year: d,
-              value: 10000 * Math.exp(-(d - 1) / 40),
-            }));
-
-          var dataTime = d3.range(0, DAYS).map(function(d){return new Date(2020, 0, 22+d);});
-          display_date = d3.max(dataTime)
-          mapbox_data.ini_data(rows_confirm,display_date,'confirm')
-          mapbox_data.ini_data(row_recover,display_date,'recover')
-          mapbox_data.ini_data(row_death,display_date,'death')
-          mapbox_data.adjust_size()
-
-          Plotly.newPlot(map, mapbox_data.data, map_layout, config);
-          Plotly.addTraces(map, mapbox_data.confirm);
-          Plotly.addTraces(map, mapbox_data.recover);
-          Plotly.addTraces(map, mapbox_data.death);
-
-          mapbox_data.set_nums(display_date)
-          // console.log(mapbox_data)
-
-          var slider = d3
-            .sliderBottom()
-            .min(d3.min(dataTime))
-            .max(d3.max(dataTime))
-            .step(1000 * 60 * 60 * 24)
-            .width(1200)
-            .ticks(15)
-            .fill(["red"])
-            .displayValue(true)
-            .on('onchange', val => {
-              mapbox_data.update_data(rows_confirm,val,'confirm')
-              mapbox_data.update_data(row_recover,val,'recover')
-              mapbox_data.update_data(row_death,val,'death')
-              mapbox_data.adjust_size()
-              Plotly.redraw(map)
-              mapbox_data.set_nums(val)
-            });
-
-          d3.select('#slider')
-            .append('svg')
-            .attr('width', 1500)
-            .attr('height', 100)
-            .append('g')
-            .attr('transform', 'translate(30,30)')
-            .call(slider);
-
-          slider.value([display_date])
-
-          d3.select("#check_box")
-            .append("svg")
-            .attr("height",20)
-            .attr("width",20)
-            .append("circle")
-            .attr("cx",10)
-            .attr("cy",12)
-            .attr("r",8)
-            .style("fill","#ff3300")
-            .style("opacity", 0.5)
-          d3.select("#check_box")
-            .append("input")
-            .attr("type", "checkbox")
-            .attr("checked", true)
-            .attr("id","box1")
-            .attr("onClick", "boxclick(this,mapbox_data)")
-          d3.select("#check_box")
-            .append('label')
-            .text("Confirmed Cases")
-
-          d3.select("#check_box")
-            .append("svg")
-            .attr("height",20)
-            .attr("width",20)
-            .append("circle")
-            .attr("cx",10)
-            .attr("cy",12)
-            .attr("r",8)
-            .style("fill","#15F228")
-            .style("opacity", 0.7)
-          d3.select("#check_box")
-            .append("input")
-            .attr("type", "checkbox")
-            .attr("checked", true)
-            .attr("id","box2")
-            .attr("onClick", "boxclick(this,mapbox_data)")
-          d3.select("#check_box")
-            .append('label')
-            .text("Recovered Cases")
-
-          d3.select("#check_box")
-            .append("svg")
-            .attr("height",20)
-            .attr("width",20)
-            .append("circle")
-            .attr("cx",10)
-            .attr("cy",12)
-            .attr("r",8)
-            .style("fill","#4d0000")
-            .style("opacity", 1.0)
-          d3.select("#check_box")
-            .append("input")
-            .attr("type", "checkbox")
-            .attr("checked", true)
-            .attr("id","box3")
-            .attr("onClick", "boxclick(this,mapbox_data)")
-          d3.select("#check_box")
-            .append('label')
-            .text("Death Cases")
-          })
-        })
-      })

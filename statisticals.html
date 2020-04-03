@@ -21,9 +21,9 @@
 	<!-- for google fontstyle -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<!-- js and CSS created in this project -->
-	<!-- <script src="./src/barPlot.js"></script> -->
-	<script src="./src/dispMap.js"></script>
-	<script src="./src/setlegend.js"></script>
+	<script src="./src/barPlot.js"></script>
+<!-- 	<script src="./src/dispMap.js"></script> -->
+	<!-- <script src="./src/setlegend.js"></script> -->
 	<link rel="stylesheet" type="text/css" href="./src/style.css">
 	<link rel="title icon" href="img/dashboard.png">
 	<title>Team 56 Project: Pandemic Tracker</title>
@@ -42,8 +42,8 @@
 			<div class="col-xl-2 col-lg-3 col-md-4 sidebar fixed-top">
 				<a href="#" class="navbar-brand text-white d-block mx-auto text-left py-3 mb-4 bottom-border">Pandemic Tracker</a>
 				<ul class="navbar-nav flex-column mt-4">
-					<li class="nav-item"><a href="index.html" class="nav-link text-white p-3 mb-2 current"><i class="fas fa-globe-americas text-light fa-lg mr-3"></i>Global Situation</a></li>
-					<li class="nav-item"><a href="statisticals.html" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-chart-line text-light fa-lg mr-3"></i>Statisticals </a></li>
+					<li class="nav-item"><a href="index.html" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-globe-americas text-light fa-lg mr-3"></i>Global Situation</a></li>
+					<li class="nav-item"><a href="statisticals.html" class="nav-link text-white p-3 mb-2 current"><i class="fas fa-chart-line text-light fa-lg mr-3"></i>Statisticals </a></li>
 					<li class="nav-item"><a href="spreading_path.html" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-head-side-cough text-light fa-lg mr-3"></i>Spreding Path</a></li>
 					<li class="nav-item"><a href="documentation.html" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-file-alt text-light fa-lg mr-3"></i>Documentation</a></li>
 					<li class="nav-item"><a href="group_member.html" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-users text-light fa-lg mr-3"></i>Group Members</a></li>
@@ -55,7 +55,7 @@
 			<div class="col-xl-10 col-lg-9 col-md-8 ml-auto bg-dark fixed-top py-2 top-navbar">
 				<div class="row align-items-center">
 					<div class="col-md-4">
-						<h4 class="text-light text-uppercase mb-0">Global Situation</h4>
+						<h4 class="text-light text-uppercase mb-0">Pandemic Statisticals</h4>
 					</div>
 					<div class="col-md-4">
 						<div class="btn-group">
@@ -178,18 +178,13 @@
           <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
             <div class="row align-items-center">
               <div class="col-xl-12 col-12 mb-0 mb-xl-0">
+                <table class="table table-striped bg-light text-center">
 
                 <div class="card card-common">
                   <div class="card-body">
-          					<h3 class="text-muted text-center mb-3">World-wide Spreading Situation</h3>
-          					<div id="slider"></div>
-                    <div  class="row">
-            					<div id="map" class="col-sm-10"></div>
-                      <div class="col-sm-2">
-                        <div id="check_box"></div>
-                      </div>
-                      
-                    </div>
+					<h3 class="text-muted text-center mb-3">Country Details</h3>
+					<div id="slider"></div>
+					<div id="barchart" style="overflow:auto;"></div>
               	  </div>
               </div>
           </div>
